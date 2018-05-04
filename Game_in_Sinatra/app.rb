@@ -6,6 +6,6 @@ get '/' do
 	'Hello World'
 end
 
-get '/home' do
-	erb :index
+get '/views' do
+	erb :'home/index.html.erb'
 end
