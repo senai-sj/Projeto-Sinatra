@@ -3,5 +3,9 @@
 require 'sinatra'
 
 get '/' do
-	'Olá Mundo'
+	'Hello World'
+end
+
+get '/home' do
+	erb :index
 end
