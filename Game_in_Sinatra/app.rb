@@ -3,13 +3,18 @@
 require 'sinatra'
 
 get '/' do
-	:'pages/index.html'
+	"Servidor Sinatra Funcionando!"
+end
+
+get '/index' do
+	@pages = Pages.all
+	erb :'pages/index.html.erb'
 end
 
 get '/cadastro' do
-	:'pages/cadastro.html'
+	erb :'pages/cadastro.html.erb'
 end
 
 get '/login' do
-	:'pages/login.html'
+	erb :'pages/login.html.erb'
 end
