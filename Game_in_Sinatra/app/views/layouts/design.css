@@ -7,18 +7,23 @@
 }
 #form {
 	padding: 1em;
-	font-family: impact;
+	font-family: verdana;
 	font-size: 18px;
 	border: 1px solid black;
 }
-
+#body {
+	padding: 1em;
+	font-family: Vladimir Script;
+	font-size: 18px;
+	text-align: center;
+}
 /* Botões */
 #bt-gray {
 	border: 1px solid #000;
 	border-radius:8px;
 	display:inline-block;
 	cursor:pointer;
-	font-family: impact;
+	font-family: verdana;
 	font-weight:bold;
 	font-size: 16px;
 	padding:6px 10px;

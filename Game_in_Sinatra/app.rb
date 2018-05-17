@@ -3,9 +3,13 @@
 require 'sinatra'
 
 get '/' do
-	'Hello World'
+	:'pages/index.html'
 end
 
 get '/cadastro' do
-	 :'pages/index.html'
+	:'pages/cadastro.html'
+end
+
+get '/login' do
+	:'pages/login.html'
 end
