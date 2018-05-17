@@ -6,6 +6,6 @@ get '/' do
 	'Hello World'
 end
 
-get '/views' do
+get '/cadastrar' do
 	erb :'home/index.html.erb'
 end

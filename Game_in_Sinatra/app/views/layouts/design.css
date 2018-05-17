@@ -13,7 +13,7 @@
 }
 
 /* Botões */
-#bt-yellow {
+#bt-gray {
 	border: 1px solid #000;
 	border-radius:8px;
 	display:inline-block;
@@ -23,19 +23,19 @@
 	font-size: 16px;
 	padding:6px 10px;
 	text-decoration:none;
-	background:linear-gradient(to bottom, #F07000 10%, #F90   100%);
-	color: #999;
-	text-shadow:0px 2px 0px #000, 0px 0px 8px #000;
+	background:linear-gradient(to left, #DDD 10%, #EEE   100%);
+	color: #000;
+	text-shadow:0px 2px 0px #DDD;
 }
-#bt-yellow:hover {
-	background:linear-gradient(to bottom, #F90 10%, #F07000  100%);
+#bt-gray:hover {
+	background:linear-gradient(to bottom, #EEE 10%, #DDD  100%);
 }
 /* Planos de Fundo*/
-.bg-red {
+.bg-gray {
 	background-color: #000;
-	background:linear-gradient(to bottom, #F07000 10%, #F90   100%);
-	text-shadow:0px 2px 0px #000, 0px 0px 8px #000;
-	color: #999;
+	background:linear-gradient(to bottom, #DDD 10%, #FFF   100%);
+	text-shadow:0px 2px 0px #DDD;
+	color: #000;
 	font-family: verdana;
 	font-size: 16px;
 	text-align: center;
