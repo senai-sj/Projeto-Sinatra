@@ -2,6 +2,7 @@
 
 require 'sinatra'
 require 'find'
+set :views, 'views/pages'
 
 def get_files(path)
 	files = []
@@ -12,21 +13,18 @@ def get_files(path)
 end
 
 get '/' do
-	@views = get_files('./views')
 	"Servidor Sinatra Funcionando!"
 end
 
 get '/index' do
-	@views = get_files('./views')
-	erb :'pages/index.html.erb'
+	erb :'index'
 end
 
 get '/cadastro' do
-	@views = get_files('./views')
-	erb :'pages/cadastro.html.erb'
+	erb :'cadastro'
 end
 
-get '/login' do
-	@views = get_files('./views')
-	erb :'pages/login.html.erb'
-end
+# get '/login' do
+#	@views = get_files('/views')
+#	erb :'login'
+# end
