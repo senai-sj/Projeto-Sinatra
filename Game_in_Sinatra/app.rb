@@ -2,7 +2,6 @@
 
 require 'sinatra'
 require 'find'
-set :views, 'views/pages'
 
 def get_files(path)
 	files = []
@@ -17,14 +16,16 @@ get '/' do
 end
 
 get '/index' do
-	erb :'index'
+	@views = get_files('./views')
+	erb :index
 end
 
 get '/cadastro' do
-	erb :'cadastro'
+	@views = get_files('./views')
+	erb :cadastro
 end
 
 # get '/login' do
 #	@views = get_files('/views')
-#	erb :'login'
+#	erb :login
 # end
