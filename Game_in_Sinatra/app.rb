@@ -3,25 +3,17 @@
 require 'sinatra'
 require 'find'
 
-def get_files(path)
-	files = []
-	Find.find(path) do |c|
-		files << File.basename(c, ".erb") if !File.directory?(c)
-	end
-	return
-end
+require_relative 'db/ranking'
 
 get '/' do
 	"Servidor Sinatra Funcionando!"
 end
 
 get '/index' do
-	@views = get_files('./views')
 	erb :index
 end
 
 get '/cadastro' do
-	@views = get_files('./views')
 	erb :cadastro
 end
 
