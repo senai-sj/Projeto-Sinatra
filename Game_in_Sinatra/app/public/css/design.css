@@ -1,14 +1,20 @@
+html, body {
+	height: 100%;
+}
+
 #header {
-	padding: 1em;
 	font-family: Vladimir Script;
 	font-size: 60px;
 	text-align: center;
+	text-shadow:0px 4px 0px #000;
+	color: #AAA;
 }
 #form {
 	padding: 1em;
 	font-family: verdana;
 	font-size: 18px;
-	border: 1px solid black;
+	text-align: center;
+	color: #000;
 }
 #body {
 	padding: 1em;
@@ -29,18 +35,14 @@
 	text-decoration:none;
 	background:linear-gradient(to bottom, #F90 10%, #F2ED00 100%);
 	color: #000;
-	text-shadow:0px 2px 0px #DDD;
 }
 #bt-gray:hover {
 	background:linear-gradient(to bottom, #EEE 10%, #DDD  100%);
 }
 /* Planos de Fundo*/
 .bg-yellow {
-	height: 100%;
 	background:linear-gradient(to bottom, #FFCD6E 10%, #FFF288 100%);
 	background-size: 100%;
-	text-shadow:0px 2px 0px #DDD;
-	color: #000;
 	font-family: verdana;
 	font-size: 16px;
 	text-align: center;
@@ -48,9 +50,8 @@
 .bg-orange {
 
 }
-#navbar, a {
+#navbar {
 	padding: 1em;
-
 	font: verdana;
 	color: #000;
 	text-shadow: 0px 1px 0px #000;
