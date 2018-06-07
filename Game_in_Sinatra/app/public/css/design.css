@@ -1,9 +1,8 @@
-
-/*  Fontes */
 #header {
 	padding: 1em;
 	font-family: Vladimir Script;
 	font-size: 60px;
+	text-align: center;
 }
 #form {
 	padding: 1em;
@@ -18,7 +17,7 @@
 	text-align: center;
 }
 /* Botões */
-#bt-gray {
+#bt-yellow {
 	border: 1px solid #000;
 	border-radius:8px;
 	display:inline-block;
@@ -28,7 +27,7 @@
 	font-size: 16px;
 	padding:6px 10px;
 	text-decoration:none;
-	background:linear-gradient(to left, #DDD 10%, #EEE   100%);
+	background:linear-gradient(to bottom, #F90 10%, #F2ED00 100%);
 	color: #000;
 	text-shadow:0px 2px 0px #DDD;
 }
@@ -36,9 +35,10 @@
 	background:linear-gradient(to bottom, #EEE 10%, #DDD  100%);
 }
 /* Planos de Fundo*/
-.bg-gray {
-	background-color: #000;
-	background:linear-gradient(to bottom, #DDD 10%, #FFF   100%);
+.bg-yellow {
+	height: 100%;
+	background:linear-gradient(to bottom, #FFCD6E 10%, #FFF288 100%);
+	background-size: 100%;
 	text-shadow:0px 2px 0px #DDD;
 	color: #000;
 	font-family: verdana;
@@ -47,4 +47,12 @@
 }
 .bg-orange {
 
+}
+#navbar, a {
+	padding: 1em;
+
+	font: verdana;
+	color: #000;
+	text-shadow: 0px 1px 0px #000;
+	background-color: #F90;
 }
