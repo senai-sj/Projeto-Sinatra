@@ -16,14 +16,14 @@ get '/' do
 	erb :home
 end
 
-get '/mvc' do
+get '/index' do
 	@views = get_files('./views')
-	erb :mvc
+	erb :index
 end
 
-get '/api' do
+get '/cadastros' do
 	@views = get_files('./views')
-	erb :api
+	erb :cadastros
 end
 
 get '/http' do
