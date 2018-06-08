@@ -16,9 +16,9 @@ get '/' do
 	erb :home
 end
 
-get '/index' do
+get '/login' do
 	@views = get_files('./views')
-	erb :index
+	erb :login
 end
 
 get '/cadastros' do
@@ -26,9 +26,9 @@ get '/cadastros' do
 	erb :cadastros
 end
 
-get '/http' do
+get '/redefinir' do
 	@views = get_files('./views')
-	erb :http
+	erb :redefinir
 end
 
 get '/frameworks' do

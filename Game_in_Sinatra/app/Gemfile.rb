@@ -3,3 +3,5 @@
 gem 'sinatra'
 
 gem 'erb'
+
+gem 'rdoc', '~> 4.2'
