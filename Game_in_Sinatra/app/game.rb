@@ -31,9 +31,9 @@ get '/redefinir' do
 	erb :redefinir
 end
 
-get '/frameworks' do
+get '/menu' do
 	@views = get_files('./views')
-	erb :frameworks
+	erb :menu
 end
 
 get '/git' do
