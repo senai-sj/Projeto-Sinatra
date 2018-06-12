@@ -39,6 +39,7 @@ end
 get '/menu' do
 	@views = get_files('./views')
 	erb :menu
+end
 
 get '/login' do
 	@views = get_files('./views')
