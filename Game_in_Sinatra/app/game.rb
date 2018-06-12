@@ -21,6 +21,11 @@ get '/login' do
 	erb :login
 end
 
+get '/redefinir' do
+	@views = get_files('./views')
+	erb :redefinir
+end
+
 get '/cadastros' do
 	@views = get_files('./views')
 	erb :cadastros
@@ -34,9 +39,38 @@ end
 get '/menu' do
 	@views = get_files('./views')
 	erb :menu
+
+get '/login' do
+	@views = get_files('./views')
+	erb :login
 end
 
-get '/git' do
+get '/jogo' do
 	@views = get_files('./views')
-	erb :git
+	erb :jogo
+end
+
+get '/fases' do
+	@views = get_files('./views')
+	erb :fases
+end
+
+get '/menu' do
+	@views = get_files('./views')
+	erb :menu
+end
+
+get '/configuracoes' do
+	@views = get_files('./views')
+	erb :configuracoes
+end
+
+get '/perfil' do
+	@views = get_files('./views')
+	erb :perfil
+end
+
+get '/lideres' do
+	@views = get_files('./views')
+	erb :lideres
 end

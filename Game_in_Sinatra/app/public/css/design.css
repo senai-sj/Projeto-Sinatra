@@ -1,13 +1,21 @@
 html, body {
+	margin: 0;
 	height: 100%;
 }
-
+/* Divs e Containers*/
 #header {
 	font-family: Vladimir Script;
 	font-size: 60px;
 	text-align: center;
 	text-shadow:0px 4px 0px #000;
-	color: #AAA;
+	color: #888;
+}
+#subheader {
+	font-family: Vladimir Script;
+	font-size: 50px;
+	text-align: center;
+	text-shadow:0px 2px 4px #000;
+	color: #888;
 }
 #form {
 	padding: 1em;
@@ -16,17 +24,127 @@ html, body {
 	text-align: center;
 	color: #000;
 }
-
 #body {
 	padding: 1em;
-	font-family: Vladimir Script;
-	font-size: 18px;
+	font: verdana;
+	color: #000;
+	text-shadow: 0px 1px 0px #000;
+	background-color: #F90;
+}
+#copyright {
+	font: verdana;
+	font-size: 14px;
+	color: #555;
+	text-align: right;
+	padding-bottom: 3em;
+	padding-top: 15em;
+	padding-right: 3em;
+}
+.config {
+	align-content: center;
+	margin-left: 25em;
+	margin-right: 25em;
+}
+.empty {
+	padding: 2em;
+}
+/* Botões e caixas*/
+#config-box {
+	width: 150px;
+	height: 25px;
+	font-size: 16px;
+	font-family: verdana;
+	font-weight:bold;
 	text-align: center;
+	border: 1px solid #000;
+	background:linear-gradient(to bottom, #F90 10%, #F2ED00 100%);
+	color: #000;
+	float: left;
+}
+#alert-box {
+	width: 150px;
+	height: 25px;
+	font-size: 16px;
+	font-family: verdana;
+	font-weight:bold;
+	text-align: center;
+	border: 1px solid #000;
+	background:linear-gradient(to bottom, #771315 10%, #c01f23 100%);
+	color: #000;
+
+}
+#bt-gray {
+	min-width: 150px;
+	max-width: 180px;
+	border: 1px solid #000;
+	border-radius:1px;
+	display:inline-block;
+	cursor:pointer;
+	font-family: verdana;
+	font-weight:bold;
+	font-size: 16px;
+	padding:6px 10px;
+	text-decoration:none;
+	background:linear-gradient(to bottom, #CCC 10%, #DDD 100%);
+	color: #000;
+}
+#bt-yellow {
+	padding: 1em;
+	min-width: 180px;
+	max-width: 300px;
+	border: 1px solid #000;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	-webkit-transition: 1s;
+	transition: 1s;
+	font-family: verdana;
+	font-weight:bold;
+	font-size: 16px;
+	padding:6px 10px;
+	text-decoration:none;
+	background:linear-gradient(to bottom, #F90 10%, #F2ED00 100%);
+	color: #000;
+}
+#bt-yellow:hover {
+	background:linear-gradient(to bottom, #09F 10%, #00EDF2  100%);
+	-webkit-transition: 1s;
+	transition: 1s;
+}
+#bt-fase_bloqueada {
+	width: 100px;
+	height: 85px;
+	border: 1px solid #000;
+	border-radius:1px;
+	display:inline-block;
+	cursor:none;
+	font-family: impact;
+	font-size: 16px;
+	padding:6px 10px;
+	text-decoration:none;
+	background:linear-gradient(to bottom, #CCC 10%, #DDD 100%);
+	color: #000;
+}
+#bt-fase_liberada {
+	width: 100px;
+	height: 85px;
+	border: 1px solid #000;
+	border-radius:1px;
+	display:inline-block;
+	cursor:pointer;
+	font-family: impact;
+	font-size: 16px;
+	padding:6px 10px;
+	text-decoration:none;
+	background:linear-gradient(to bottom, #58cb6c 10%, #298539 100%);
+	color: #000;
+}
+#bt-fase_liberada :hover {
+	background:linear-gradient(to bottom, #09F 10%, #00EDF2  100%);
 }
 /* Planos de Fundo*/
 .bg-yellow {
 	background:linear-gradient(to bottom, #FFCD6E 10%, #FFF288 100%);
-	background-size: 100%;
 	font-family: verdana;
 	font-size: 16px;
 	text-align: center;
@@ -57,4 +175,51 @@ html, body {
 	}
 	#bt-yellow:hover {
 		background:linear-gradient(to bottom, #000 10%, #DDD  100%);
+	}
+/* Switches */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
 }
