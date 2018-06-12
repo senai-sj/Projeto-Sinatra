@@ -21,22 +21,47 @@ get '/index' do
 	erb :index
 end
 
+get '/redefinir' do
+	@views = get_files('./views')
+	erb :redefinir
+end
+
 get '/cadastros' do
 	@views = get_files('./views')
 	erb :cadastros
 end
 
-get '/http' do
+get '/login' do
 	@views = get_files('./views')
-	erb :http
+	erb :login
 end
 
-get '/frameworks' do
+get '/jogo' do
 	@views = get_files('./views')
-	erb :frameworks
+	erb :jogo
 end
 
-get '/git' do
+get '/fases' do
 	@views = get_files('./views')
-	erb :git
+	erb :fases
+end
+
+get '/menu' do
+	@views = get_files('./views')
+	erb :menu
+end
+
+get '/configuracoes' do
+	@views = get_files('./views')
+	erb :configuracoes
+end
+
+get '/perfil' do
+	@views = get_files('./views')
+	erb :perfil
+end
+
+get '/lideres' do
+	@views = get_files('./views')
+	erb :lideres
 end
