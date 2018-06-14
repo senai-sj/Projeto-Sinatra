@@ -16,11 +16,6 @@ get '/' do
 	erb :home
 end
 
-get '/login' do
-	@views = get_files('./views')
-	erb :login
-end
-
 get '/redefinir' do
 	@views = get_files('./views')
 	erb :redefinir
@@ -29,16 +24,6 @@ end
 get '/cadastros' do
 	@views = get_files('./views')
 	erb :cadastros
-end
-
-get '/redefinir' do
-	@views = get_files('./views')
-	erb :redefinir
-end
-
-get '/menu' do
-	@views = get_files('./views')
-	erb :menu
 end
 
 get '/login' do
@@ -65,6 +50,12 @@ get '/configuracoes' do
 	@views = get_files('./views')
 	erb :configuracoes
 end
+
+get '/creditos' do
+	@views = get_files('./views')
+	erb :creditos
+end
+
 
 get '/perfil' do
 	@views = get_files('./views')
