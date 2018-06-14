@@ -1,6 +1,8 @@
 html, body {
 	margin: 0;
 	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 /* Divs e Containers*/
 #header {
@@ -10,6 +12,7 @@ html, body {
 	text-shadow:0px 4px 0px #000;
 	color: #888;
 }
+
 #subheader {
 	font-family: Vladimir Script;
 	font-size: 50px;
@@ -17,41 +20,62 @@ html, body {
 	text-shadow:0px 2px 4px #000;
 	color: #888;
 }
+
 #form {
 	padding: 1em;
 	font-family: verdana;
-	font-size: 18px;
+	font-size: 15px;
 	text-align: center;
 	color: #000;
 }
-#body {
 	padding: 1em;
 	font: verdana;
 	color: #000;
 	text-shadow: 0px 1px 0px #000;
 	background-color: #F90;
 }
+
 footer {
 	font: verdana;
+=======
+
+footer {
+	font-family: verdana;
 	font-size: 14px;
 	color: #555;
 	text-align: right;
 	padding-bottom: 3em;
-	padding-top: 15em;
+	padding-top: 2em;
 	padding-right: 3em;
+	position: absolute;
+	bottom: 0;
 }
+
 .config {
 	align-content: center;
-	margin-left: 25em;
-	margin-right: 25em;
+	margin-left: 10em;
+	margin-right: 10em;
 }
+
 .empty {
 	padding: 2em;
 }
+  
 #hRanking{
 	font-family: Calibri;
 	font-size: 30px;
 	padding: 1em;
+
+.creditos {
+	border: 1px solid;
+	border-radius: 25px;
+	font-size: 14px;
+	font-family: verdana;
+	text-align: center;
+	border: 1px solid #000;
+	background:linear-gradient(to bottom, rgba(195,120,0,50), rgba(225,225,0,50) 100%);
+	color: #000;
+	float: left;
 }
 /* Botões e caixas*/
 #config-box {
@@ -66,18 +90,32 @@ footer {
 	color: #000;
 	float: left;
 }
-#alert-box {
-	width: 150px;
-	height: 25px;
-	font-size: 16px;
+
+#bt-red {
+	padding: 1em;
+	min-width: 180px;
+	max-width: 300px;
+	border: 1px solid #000;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	-webkit-transition: 1s;
+	transition: 1s;
 	font-family: verdana;
 	font-weight:bold;
-	text-align: center;
-	border: 1px solid #000;
+	font-size: 16px;
+	padding:6px 10px;
+	text-decoration:none;
 	background:linear-gradient(to bottom, #771315 10%, #c01f23 100%);
 	color: #000;
-
 }
+
+#bt-red:hover {
+	background:linear-gradient(to bottom, #09F 10%, #00EDF2  100%);
+	-webkit-transition: 1s;
+	transition: 1s;
+}
+
 #bt-gray {
 	min-width: 150px;
 	max-width: 180px;
@@ -93,16 +131,17 @@ footer {
 	background:linear-gradient(to bottom, #CCC 10%, #DDD 100%);
 	color: #000;
 }
+
 #bt-yellow {
 	padding: 1em;
 	min-width: 180px;
 	max-width: 300px;
-	border: 1px solid #000;
-	border-radius:8px;
+	border: 0px solid #000;
+	border-radius:40px;
 	display:inline-block;
 	cursor:pointer;
-	-webkit-transition: 1s;
-	transition: 1s;
+	-webkit-transition: .5s;
+	transition: .5s;
 	font-family: verdana;
 	font-weight:bold;
 	font-size: 16px;
@@ -111,11 +150,13 @@ footer {
 	background:linear-gradient(to bottom, #F90 10%, #F2ED00 100%);
 	color: #000;
 }
+
 #bt-yellow:hover {
 	background:linear-gradient(to bottom, #09F 10%, #00EDF2  100%);
 	-webkit-transition: .5s;
 	transition: .5s;
 }
+
 #bt-fase_bloqueada {
 	width: 100px;
 	height: 85px;
@@ -130,6 +171,7 @@ footer {
 	background:linear-gradient(to bottom, #CCC 10%, #DDD 100%);
 	color: #000;
 }
+
 #bt-fase_liberada {
 	width: 100px;
 	height: 85px;
@@ -144,6 +186,7 @@ footer {
 	background:linear-gradient(to bottom, #58cb6c 10%, #298539 100%);
 	color: #000;
 }
+
 #bt-fase_liberada :hover {
 	background:linear-gradient(to bottom, #09F 10%, #00EDF2  100%);
 }
@@ -175,6 +218,7 @@ footer {
 	background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 .bg-orange {
 
 }
