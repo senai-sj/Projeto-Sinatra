@@ -36,6 +36,10 @@ html, body {
 }
 
 footer {
+	font: verdana;
+=======
+
+footer {
 	font-family: verdana;
 	font-size: 14px;
 	color: #555;
@@ -56,6 +60,11 @@ footer {
 .empty {
 	padding: 2em;
 }
+  
+#hRanking{
+	font-family: Calibri;
+	font-size: 30px;
+	padding: 1em;
 
 .creditos {
 	border: 1px solid;
@@ -181,6 +190,24 @@ footer {
 #bt-fase_liberada :hover {
 	background:linear-gradient(to bottom, #09F 10%, #00EDF2  100%);
 }
+#bt-ranking{
+	padding: 1em;
+	min-width: 180px;
+	max-width: 300px;
+	border: 1px solid #000;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	-webkit-transition: 1s;
+	transition: 1s;
+	font-family: calibri;
+	font-weight:bold;
+	font-size: 20px;
+	padding:6px 10px;
+	text-decoration:none;
+	background:linear-gradient(to bottom, #F90 10%, #F2ED00 100%);
+	color: #000;
+}
 
 /* Planos de Fundo*/
 .bg-yellow {
@@ -188,8 +215,94 @@ footer {
 	font-family: verdana;
 	font-size: 16px;
 	text-align: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .bg-orange {
 
+}
+.bg-ranking{
+	background: linear-gradient(to bottom right, #ef9288, #8be9f9);
+	font-size: 16px;
+	text-align: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#navbar {
+	padding: 1em;
+	font: verdana;
+	color: #000;
+	text-shadow: 0px 1px 0px #000;
+	background-color: #F90;
+}
+#bt-yellow {
+	border: 1px solid #000;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	font-family: verdana;
+	font-weight:bold;
+	font-size: 16px;
+	padding:6px 10px;
+	text-decoration:none;
+	background:linear-gradient(to bottom, #F90 10%, #F2ED00 100%);
+	color: #000;
+	}
+	#bt-yellow:hover {
+		background:linear-gradient(to bottom, #09F 10%, #00EDF2  100%);
+	}	
+/* Switches */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+#table{
+	height: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 16px;
 }
