@@ -56,6 +56,12 @@ get '/configuracoes' do
 	erb :configuracoes
 end
 
+get '/creditos' do
+	@views = get_files('./views')
+	erb :creditos
+end
+
+
 get '/perfil' do
 	@views = get_files('./views')
 	erb :perfil

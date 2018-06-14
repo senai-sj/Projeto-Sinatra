@@ -1,0 +1,88 @@
+.alinhamento {
+	padding: 1em;
+	font-family: verdana;
+	font-size: 15px;
+	text-align: center;
+	color: #000;
+}
+
+.creditos {
+	width: 310px;
+	border: 1px solid;
+	border-radius: 25px;
+	display:inline-block;
+	text-align: center;
+	font-size: 16px;
+	font-family: gill sans MT;
+	text-align: center;
+	border: 1px solid #000;
+	background:linear-gradient(to bottom,  #FFCD6E 10%, #FFF288 100%);
+	color: #222;
+}
+
+#bt-yellow {
+	padding: 1em;
+	width: 120px;
+	border: 0px solid;
+	border-radius:40px;
+	display:inline-block;
+	cursor:pointer;
+	-webkit-transition: .5s;
+	transition: .5s;
+	font-family: verdana;
+	font-weight:bold;
+	font-size: 16px;
+	padding:6px 10px;
+	box-shadow: 0px 3px 8px #000;
+	background:linear-gradient(to bottom, #F90 10%, #F2ED00 100%);
+	color: #000;
+}
+
+#bt-yellow:hover {
+	background:linear-gradient(to bottom, #09F 10%, #00EDF2  100%);
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+#header {
+	font-family: Vladimir Script;
+	font-size: 60px;
+	text-align: center;
+	text-shadow:0px 4px 0px #000;
+	color: #888;
+}
+
+#subheader {
+	font-family: Vladimir Script;
+	font-size: 50px;
+	text-align: center;
+	text-shadow:0px 2px 4px #000;
+	color: #888;
+}
+/* Planos de Fundo*/
+.bg-yellow {
+	background:linear-gradient(to bottom, #FFCD6E 10%, #FFF288 100%);
+	font-family: verdana;
+	font-size: 16px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/* Arquivos Padrões */
+html, body {
+	margin: 0;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+footer {
+	font-family: verdana;
+	font-size: 14px;
+	color: #555;
+	text-align: right;
+	padding-bottom: 3em;
+	padding-top: 3em;
+	bottom: 0;
+}

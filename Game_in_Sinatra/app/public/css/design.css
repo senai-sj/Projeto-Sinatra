@@ -1,6 +1,8 @@
 html, body {
 	margin: 0;
 	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 /* Divs e Containers*/
 #header {
@@ -35,14 +37,16 @@ html, body {
 	background-color: #F90;
 }
 
-#copyright {
-	font: verdana;
+footer {
+	font-family: verdana;
 	font-size: 14px;
 	color: #555;
 	text-align: right;
 	padding-bottom: 3em;
-	padding-top: 15em;
+	padding-top: 2em;
 	padding-right: 3em;
+	position: absolute;
+	bottom: 0;
 }
 
 .config {
@@ -55,6 +59,17 @@ html, body {
 	padding: 2em;
 }
 
+.creditos {
+	border: 1px solid;
+	border-radius: 25px;
+	font-size: 14px;
+	font-family: verdana;
+	text-align: center;
+	border: 1px solid #000;
+	background:linear-gradient(to bottom, rgba(195,120,0,50), rgba(225,225,0,50) 100%);
+	color: #000;
+	float: left;
+}
 /* Botões e caixas*/
 #config-box {
 	width: 150px;
@@ -114,12 +129,12 @@ html, body {
 	padding: 1em;
 	min-width: 180px;
 	max-width: 300px;
-	border: 1px solid #000;
-	border-radius:8px;
+	border: 0px solid #000;
+	border-radius:40px;
 	display:inline-block;
 	cursor:pointer;
-	-webkit-transition: 1s;
-	transition: 1s;
+	-webkit-transition: .5s;
+	transition: .5s;
 	font-family: verdana;
 	font-weight:bold;
 	font-size: 16px;
@@ -131,8 +146,8 @@ html, body {
 
 #bt-yellow:hover {
 	background:linear-gradient(to bottom, #09F 10%, #00EDF2  100%);
-	-webkit-transition: 1s;
-	transition: 1s;
+	-webkit-transition: .5s;
+	transition: .5s;
 }
 
 #bt-fase_bloqueada {
@@ -182,49 +197,3 @@ html, body {
 }
 
 /* Switches */
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-}
-
-.switch input {display:none;}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-input:checked + .slider {
-  background-color: #2196F3;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
