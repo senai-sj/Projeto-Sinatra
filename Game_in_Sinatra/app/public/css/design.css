@@ -31,7 +31,7 @@ html, body {
 	text-shadow: 0px 1px 0px #000;
 	background-color: #F90;
 }
-#copyright {
+footer {
 	font: verdana;
 	font-size: 14px;
 	color: #555;
@@ -47,6 +47,11 @@ html, body {
 }
 .empty {
 	padding: 2em;
+}
+#hRanking{
+	font-family: Calibri;
+	font-size: 30px;
+	padding: 1em;
 }
 /* Botões e caixas*/
 #config-box {
@@ -108,8 +113,8 @@ html, body {
 }
 #bt-yellow:hover {
 	background:linear-gradient(to bottom, #09F 10%, #00EDF2  100%);
-	-webkit-transition: 1s;
-	transition: 1s;
+	-webkit-transition: .5s;
+	transition: .5s;
 }
 #bt-fase_bloqueada {
 	width: 100px;
@@ -142,15 +147,43 @@ html, body {
 #bt-fase_liberada :hover {
 	background:linear-gradient(to bottom, #09F 10%, #00EDF2  100%);
 }
+#bt-ranking{
+	padding: 1em;
+	min-width: 180px;
+	max-width: 300px;
+	border: 1px solid #000;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	-webkit-transition: 1s;
+	transition: 1s;
+	font-family: calibri;
+	font-weight:bold;
+	font-size: 20px;
+	padding:6px 10px;
+	text-decoration:none;
+	background:linear-gradient(to bottom, #F90 10%, #F2ED00 100%);
+	color: #000;
+}
+
 /* Planos de Fundo*/
 .bg-yellow {
 	background:linear-gradient(to bottom, #FFCD6E 10%, #FFF288 100%);
 	font-family: verdana;
 	font-size: 16px;
 	text-align: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .bg-orange {
 
+}
+.bg-ranking{
+	background: linear-gradient(to bottom right, #ef9288, #8be9f9);
+	font-size: 16px;
+	text-align: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 #navbar {
 	padding: 1em;
@@ -174,7 +207,7 @@ html, body {
 	}
 	#bt-yellow:hover {
 		background:linear-gradient(to bottom, #09F 10%, #00EDF2  100%);
-	}
+	}	
 /* Switches */
 .switch {
   position: relative;
@@ -221,4 +254,11 @@ input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
+}
+
+#table{
+	height: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 16px;
 }
