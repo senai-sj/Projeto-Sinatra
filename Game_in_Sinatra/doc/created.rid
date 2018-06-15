@@ -1,0 +1,15 @@
+Thu, 14 Jun 2018 21:50:33 -0300
+./app/game.rb	Thu, 14 Jun 2018 20:36:47 -0300
+./app/Gemfile.rb	Thu, 14 Jun 2018 20:36:28 -0300
+./app/public/css/creditos.css	Wed, 13 Jun 2018 21:53:06 -0300
+./app/public/css/design.css	Thu, 14 Jun 2018 20:38:35 -0300
+./app/rakefile.rb	Thu, 07 Jun 2018 22:19:43 -0300
+./app/routes.rb	Thu, 14 Jun 2018 20:48:33 -0300
+./app/views/cadastros.erb	Thu, 14 Jun 2018 21:50:11 -0300
+./app/views/configuracoes.erb	Thu, 14 Jun 2018 21:50:27 -0300
+./app/views/creditos.erb	Wed, 13 Jun 2018 22:01:39 -0300
+./app/views/home.erb	Thu, 14 Jun 2018 20:41:51 -0300
+./app/views/login.erb	Wed, 13 Jun 2018 22:00:24 -0300
+./app/views/menu.erb	Wed, 13 Jun 2018 22:00:10 -0300
+./app/views/perfil.erb	Wed, 13 Jun 2018 21:59:44 -0300
+./app/views/redefinir.erb	Wed, 13 Jun 2018 21:59:08 -0300
