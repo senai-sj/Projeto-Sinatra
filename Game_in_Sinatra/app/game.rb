@@ -3,6 +3,10 @@
 require 'sinatra'
 require 'find'
 
+##
+# Método Responsável para acessar os caminhos dos diretórios HTML
+# Utilizando um método find padrão para definir o parâmetro path.
+
 def get_files(path)
 	files = []
 	Find.find(path) do |c|
@@ -10,6 +14,10 @@ def get_files(path)
 	end
 	return
 end
+
+##
+# Métodos responsáveis para acessar as páginas na web.
+# São as rotas do Software, responsáveis pelo redirecionamento.
 
 get '/' do
 	@views = get_files('./views')
