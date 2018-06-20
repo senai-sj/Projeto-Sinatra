@@ -127,7 +127,7 @@ footer {
 	min-width: 180px;
 	max-width: 300px;
 	border: 0px solid #000;
-	border-radius:40px;
+	border-radius: 40px;
 	display:inline-block;
 	cursor:pointer;
 	-webkit-transition: .5s;
@@ -229,22 +229,26 @@ footer {
 	background-color: #F90;
 }
 #bt-yellow {
-	border: 1px solid #000;
-	border-radius:8px;
+	padding: 1em;
+	width: 120px;
+	border: 0px solid;
+	border-radius:40px;
 	display:inline-block;
 	cursor:pointer;
+	-webkit-transition: .5s;
+	transition: .5s;
 	font-family: verdana;
 	font-weight:bold;
 	font-size: 16px;
 	padding:6px 10px;
-	text-decoration:none;
+	box-shadow: 0px 3px 8px #000;
 	background:linear-gradient(to bottom, #F90 10%, #F2ED00 100%);
 	color: #000;
 	}
 	#bt-yellow:hover {
 		background:linear-gradient(to bottom, #09F 10%, #00EDF2  100%);
 	}	
-	
+
 #table{
 	height: 10px;
 	font-family: calibri;

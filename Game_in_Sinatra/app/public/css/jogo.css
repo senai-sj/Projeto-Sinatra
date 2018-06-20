@@ -1,0 +1,56 @@
+#grid {
+	border: 2px solid #333;
+	font-family: agent FB;
+	font-size: 14px;
+	color: #000;
+	background:linear-gradient(to bottom, #F90 10%, #F2ED00 100%);
+}
+
+html, body {
+	margin: 0;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#bt-yellow {
+	padding: 1em;
+	width: 120px;
+	border: 0px solid;
+	border-radius:40px;
+	display:inline-block;
+	cursor:pointer;
+	-webkit-transition: .5s;
+	transition: .5s;
+	font-family: verdana;
+	font-weight:bold;
+	font-size: 16px;
+	padding:6px 10px;
+	box-shadow: 0px 3px 8px #000;
+	background:linear-gradient(to bottom, #F90 10%, #F2ED00 100%);
+	color: #000;
+}
+
+#bt-yellow {
+	padding: 1em;
+	min-width: 180px;
+	max-width: 300px;
+	border: 0px solid #000;
+	border-radius:40px;
+	display:inline-block;
+	cursor:pointer;
+	-webkit-transition: .5s;
+	transition: .5s;
+	font-family: verdana;
+	font-weight:bold;
+	font-size: 16px;
+	padding:6px 10px;
+	text-decoration:none;
+	box-shadow: 0px 3px 8px #000;
+	background:linear-gradient(to bottom, #F90 10%, #F2ED00 100%);
+	color: #000;
+}
+
+#bt-yellow:hover {
+	background:linear-gradient(to bottom, #09F 10%, #00EDF2  100%);
+}
