@@ -1,0 +1,98 @@
+#table{
+	height: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#hRanking{
+	font-family: Calibri;
+	font-size: 30px;
+	padding: 1em;
+}
+
+#bt-ranking{
+	padding: 1em;
+	width: 120px;
+	border: 0px solid;
+	border-radius:40px;
+	display:inline-block;
+	cursor:pointer;
+	-webkit-transition: .5s;
+	transition: .5s;
+	font-family: verdana;
+	font-weight:bold;
+	font-size: 16px;
+	padding:6px 10px;
+	box-shadow: 0px 3px 8px #000;
+	background:linear-gradient(to bottom, #F90 10%, #F2ED00 100%);
+	color: #000;
+}
+
+
+/* Padrões */
+#bt-yellow {
+	padding: 1em;
+	width: 120px;
+	border: 0px solid;
+	border-radius:40px;
+	display:inline-block;
+	cursor:pointer;
+	-webkit-transition: .5s;
+	transition: .5s;
+	font-family: verdana;
+	font-weight:bold;
+	font-size: 16px;
+	padding:6px 10px;
+	box-shadow: 0px 3px 8px #000;
+	background:linear-gradient(to bottom, #F90 10%, #F2ED00 100%);
+	color: #000;
+}
+
+#bt-yellow:hover {
+	background:linear-gradient(to bottom, #09F 10%, #00EDF2  100%);
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+#header {
+	font-family: Vladimir Script;
+	font-size: 60px;
+	text-align: center;
+	text-shadow:0px 4px 0px #000;
+	color: #888;
+}
+
+#subheader {
+	font-family: Vladimir Script;
+	font-size: 50px;
+	text-align: center;
+	text-shadow:0px 2px 4px #000;
+	color: #888;
+}
+/* Planos de Fundo*/
+.bg-ranking{
+	background: linear-gradient(to bottom right, #ef9288, #8be9f9);
+	font-size: 16px;
+	text-align: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Arquivos Padrões */
+html, body {
+	margin: 0;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+footer {
+	font-family: verdana;
+	font-size: 14px;
+	color: #555;
+	text-align: right;
+	padding-bottom: 3em;
+	padding-top: 15em;
+	padding-right: 3em;
+}
