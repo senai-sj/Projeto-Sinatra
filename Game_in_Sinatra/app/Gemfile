@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+# Gemfile - Put the gems down there v v v v
+
+gem 'sinatra'
+gem 'rdoc', '~> 4.2'
