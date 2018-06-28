@@ -6,19 +6,19 @@ html, body {
 }
 
 #header {
-	font-family: Vladimir Script;
+	font-family: BankGothic Md BT, fantasy;
 	font-size: 60px;
 	text-align: center;
-	text-shadow:0px 4px 0px #000;
-	color: #888;
+	text-shadow:0px 0px 8px #FF0;
+	color: #FFF;
 }
 
 #subheader {
-	font-family: Vladimir Script;
+	font-family: BankGothic Md BT, fantasy;
 	font-size: 50px;
 	text-align: center;
-	text-shadow:0px 2px 4px #000;
-	color: #888;
+	text-shadow:0px 0px 8px #FF0;
+	color: #FFF;
 }
 
 #form {
@@ -29,38 +29,106 @@ html, body {
 	color: #000;
 }
 
-#bt-yellow {
+#default_button {
 	padding: 1em;
 	min-width: 180px;
 	max-width: 300px;
 	border: 0px solid #000;
-	border-radius: 40px;
+	border-radius: 0px;
 	display:inline-block;
 	cursor:pointer;
 	-webkit-transition: .5s;
 	transition: .5s;
-	font-family: verdana;
-	font-weight:bold;
-	font-size: 16px;
+	font-family: Humnst777 BT, calibri, arial;
+	font-size: 18px;
 	padding:6px 10px;
 	text-decoration:none;
 	box-shadow: 0px 3px 8px #000;
-	background:linear-gradient(to bottom, #F90 10%, #F2ED00 100%);
+	background:linear-gradient(to bottom, #003e83 10%, #0063d0 100%);
+	color: #FFF;
+}
+
+#default_button:hover {
+	background:linear-gradient(to bottom, #0157b7 10%, #0078fc 100%);
+	-webkit-transition: .5s;
+	transition: .5s;
 	color: #000;
 }
 
-#bt-yellow:hover {
-	background:linear-gradient(to bottom, #09F 10%, #00EDF2  100%);
-	-webkit-transition: .5s;
-	transition: .5s;
-}
-
-.bg-yellow {
-	background:linear-gradient(to bottom, #FFCD6E 10%, #FFF288 100%);
+.fundo {
+	background-color: #0a131a;
 	font-family: verdana;
 	font-size: 16px;
 	text-align: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-    background-attachment: fixed;
+}
+/* Design dos Botões das fases*/
+.stages {
+	height: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #222;
+	color: #000;
+}
+.stages td{
+	width: 50px;
+	height: 50px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 16px;
+	cursor:pointer;
+	background:linear-gradient(to bottom, #00cec7 10%, #00938e 100%);
+	border: 1px solid black;
+	color: #000;
+}
+/* Design das Informações da Fase */
+.info {
+	height: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #222;
+	color: #000;
+}
+.info td{
+	width: 50px;
+	height: 50px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 16px;
+	cursor:pointer;
+	background:linear-gradient(to bottom, #FF0 10%, #F90 100%);
+	border: 1px solid black;
+	color: #000;
+}
+/* Informações sobre Tempo, Pontuação e Bonus de Dificuldade*/
+.status {
+	height: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #222;
+	color: #000;
+}
+.status td{
+	width: 140px;
+	height: 35px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 16px;
+	cursor:pointer;
+	background:linear-gradient(to bottom, #FF0 10%, #F90 100%);
+	border: 1px solid black;
+	color: #000;
+}
+
+footer {
+	font-family: verdana;
+	font-size: 14px;
+	color: #FFF;
+	text-align: right;
+	text-shadow:0px 0px 8px #FF0;
+	padding-bottom: 3em;
+	padding-top: 15em;
+	padding-right: 3em;
 }

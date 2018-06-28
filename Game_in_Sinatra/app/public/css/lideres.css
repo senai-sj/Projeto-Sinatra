@@ -3,56 +3,68 @@
 	font-family: calibri;
 	font-weight: bold;
 	font-size: 16px;
+	border: 2px solid black;
+}
+
+#table thead{
+	height: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #C62050;
+	border: 1px solid black;
+	color: #FFF;
+}
+
+#table tbody{
+	height: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #EEE;
+	border: 1px solid black;
+	color: #000;
 }
 
 #hRanking{
-	font-family: Calibri;
+	font-family: BankGothic Md BT, fantasy;
 	font-size: 30px;
 	padding: 1em;
+	color: #FFF;
 }
-
-#bt-ranking{
+#hRanking h3{
+	font-family: BankGothic Md BT, fantasy;
+	font-size: 40px;
 	padding: 1em;
-	width: 120px;
-	border: 0px solid;
-	border-radius:40px;
-	display:inline-block;
-	cursor:pointer;
-	-webkit-transition: .5s;
-	transition: .5s;
-	font-family: verdana;
-	font-weight:bold;
-	font-size: 16px;
-	padding:6px 10px;
-	box-shadow: 0px 3px 8px #000;
-	background:linear-gradient(to bottom, #F90 10%, #F2ED00 100%);
-	color: #000;
+	color: #fff5dd;
+	text-shadow: 2px 1px 4px #C62050;
 }
-
 
 /* Padrões */
-#bt-yellow {
+#default_button {
 	padding: 1em;
-	width: 120px;
-	border: 0px solid;
-	border-radius:40px;
+	min-width: 180px;
+	max-width: 300px;
+	border: 0px solid #000;
+	border-radius: 0px;
 	display:inline-block;
 	cursor:pointer;
 	-webkit-transition: .5s;
 	transition: .5s;
-	font-family: verdana;
-	font-weight:bold;
-	font-size: 16px;
+	font-family: Humnst777 BT, calibri, arial;
+	font-size: 18px;
 	padding:6px 10px;
+	text-decoration:none;
 	box-shadow: 0px 3px 8px #000;
-	background:linear-gradient(to bottom, #F90 10%, #F2ED00 100%);
-	color: #000;
+	background:linear-gradient(to bottom, #003e83 10%, #0063d0 100%);
+	color: #FFF;
 }
 
-#bt-yellow:hover {
-	background:linear-gradient(to bottom, #09F 10%, #00EDF2  100%);
+#default_button:hover {
+	background:linear-gradient(to bottom, #0157b7 10%, #0078fc 100%);
 	-webkit-transition: .5s;
 	transition: .5s;
+	color: #000;
 }
 
 #header {
@@ -71,12 +83,11 @@
 	color: #888;
 }
 /* Planos de Fundo*/
-.bg-ranking{
-	background: linear-gradient(to bottom right, #ef9288, #8be9f9);
+.fundo {
+	background-color: #0a131a;
+	font-family: verdana;
 	font-size: 16px;
 	text-align: center;
-	background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 /* Arquivos Padrões */
@@ -90,9 +101,10 @@ html, body {
 footer {
 	font-family: verdana;
 	font-size: 14px;
-	color: #555;
+	color: #FFF;
 	text-align: right;
+	text-shadow:0px 0px 8px #FF0;
 	padding-bottom: 3em;
-	padding-top: 15em;
+	padding-top: 8em;
 	padding-right: 3em;
 }

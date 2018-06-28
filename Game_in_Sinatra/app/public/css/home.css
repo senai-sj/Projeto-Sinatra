@@ -1,16 +1,13 @@
-#grid {
-	border: 3px solid #000;
-	font-family: verdana;
-	font-weight: bold;
-	font-size: 20px;
-	color: #FFF;
-	background:linear-gradient(to bottom, #2a0f99 10%, #3b10e8 100%);
-	cursor: pointer;
+html, body {
+	height: 60%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
+/* Divs e Containers*/
 #header {
 	font-family: BankGothic Md BT, fantasy;
-	font-size: 40px;
+	font-size: 60px;
 	text-align: center;
 	text-shadow:0px 0px 8px #FF0;
 	color: #FFF;
@@ -18,35 +15,10 @@
 
 #subheader {
 	font-family: BankGothic Md BT, fantasy;
-	font-size: 35px;
+	font-size: 50px;
 	text-align: center;
 	text-shadow:0px 0px 8px #FF0;
 	color: #FFF;
-}
-
-html, body {
-	margin: 0;
-	height: 40%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
-
-#bt-yellow {
-	padding: 1em;
-	width: 120px;
-	border: 0px solid;
-	border-radius:40px;
-	display:inline-block;
-	cursor:pointer;
-	-webkit-transition: .5s;
-	transition: .5s;
-	font-family: verdana;
-	font-weight:bold;
-	font-size: 16px;
-	padding:6px 10px;
-	box-shadow: 0px 3px 8px #000;
-	background:linear-gradient(to bottom, #F90 10%, #F2ED00 100%);
-	color: #000;
 }
 
 #default_button {
@@ -75,12 +47,24 @@ html, body {
 	color: #000;
 }
 
+/* Planos de Fundo*/
 .fundo {
 	background-color: #0a131a;
 	font-family: verdana;
 	font-size: 16px;
 	text-align: center;
 }
+
+#form {
+	padding: 1em;
+	font-family: verdana;
+	font-size: 15px;
+	text-align: center;
+	color: #FFF;
+}
+#form ul {list-style: none;}
+
+#form li {margin-bottom: 6px;}
 
 footer {
 	font-family: verdana;
@@ -89,6 +73,6 @@ footer {
 	text-align: right;
 	text-shadow:0px 0px 8px #FF0;
 	padding-bottom: 3em;
-	padding-top: 12em;
+	padding-top: 22em;
 	padding-right: 3em;
 }
