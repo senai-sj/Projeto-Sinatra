@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+}
+#puzzle{
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+}
+.pecas{
+	width: 98px;
+	height: 68px;
+	background: url(puzzle.fw.png) no-repeat;
+	float: left;
+	text-align: center;
+	font-size: 28px;
+	padding-top: 30px;
+}
+.pecasNOT{
+	width: 98px;
+	height: 98px;
+	float: left;
+}
+body {
+	margin: 0;
+}
+#puzzle{
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+}
+.pecas{
+	width: 98px;
+	height: 68px;
+	background: url(puzzle.fw.png) no-repeat;
+	float: left;
+	text-align: center;
+	font-size: 28px;
+	padding-top: 30px;
+}
+.pecasNOT{
+	width: 98px;
+	height: 98px;
+	float: left;
+}
