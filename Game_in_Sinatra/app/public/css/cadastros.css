@@ -66,6 +66,34 @@ html, body {
 
 #form li {margin-bottom: 6px;}
 
+.signup {
+	margin-left: 33em;
+	width: 400px;
+	position: center;
+	background:linear-gradient(to bottom, #003e83 10%, #0063d0 100%);
+	border: 1px solid black;
+	float: middle;
+	text-align: center;
+}
+
+.signup label{
+	font-family: verdana;
+	font-size: 16px;
+	color: white;
+	position: center;
+	float: left;
+	text-align: center;
+}
+
+.signup input {
+    font-family: verdana;
+    background-color: #FFF;
+    border: 1px solid black;
+    float: right;
+    width: 50%;
+    height: 15px;
+    padding: 3px;
+}
 footer {
 	font-family: verdana;
 	font-size: 14px;
@@ -73,6 +101,6 @@ footer {
 	text-align: right;
 	text-shadow:0px 0px 8px #FF0;
 	padding-bottom: 3em;
-	padding-top: 17em;
+	padding-top: 10em;
 	padding-right: 3em;
 }

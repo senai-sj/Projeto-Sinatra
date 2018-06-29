@@ -9,16 +9,24 @@
 		<h1>Slide Quest</h1>
 	</div>
 	<div id="form">
-		<form method="POST">
-			Nome: <input type="text" id="txtNome" placeholder="Seu Nome Real" required><br>
-			Email: <input type="text" id="txtEmail" placeholder="Seu Email" required><br>
-			Data Nascimento: <input type="date" id="dtNasc" required><br>
-			Usuário: <input type="text" id="txtUser" placeholder="Apelido" required><br>
-			Senha: <input type="password" id="txtSenha" placeholder="*****" required>
+		<form class="signup" method="POST">
+			<fieldset>
+			<legend><b>Cadastrar</b></legend>
+			<label for="txtNome">Nome:</label> 
+			<input type="text" id="txtNome" placeholder="Seu Nome Real" required autofocus><br>
+			<label for="txtEmail">Email:</label>
+			<input type="text" id="txtEmail" placeholder="Seu Email" required><br>
+			<label for="dtNasc">Data Nascimento:</label>
+			<input type="date" id="dtNasc" required><br>
+			<label for="txtUser">Usuário:</label>
+			<input type="text" id="txtUser" placeholder="Apelido" required><br>
+			<label for="txtSenha">Senha:</label>
+			<input type="password" id="txtSenha" placeholder="*****" required>
+		    </fieldset>
 		</form>
 		<div id="form">
+		<a href="/"><button name="btnMenu" id="default_button">Voltar</button></a>
 		<a href="/"><button name="btnCadastrar" id="default_button">Cadastrar</button></a>
-		<a href="/"><button name="btnMenu" id="default_button">← Voltar</button></a>
 	</div>
 </div>
 <footer>
