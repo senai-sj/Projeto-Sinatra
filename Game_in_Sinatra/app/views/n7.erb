@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>SlideQuest - Modo Normal</title>
+	<link rel="icon" href="../favicon-16x16.png">
+	<link href="../public/css/jogo.css" type="text/css" rel="stylesheet">
+	<script src="../public/js/Jquery.js"></script>
+	<script src="../public/js/n7.js"></script>
+</head>
+<body class="fundo">
+<div class="bg7">
+	<div class="intro" onclick="start();">
+		<h1>Fase 7</h1><br>
+	</div>
+	<div id="player"><br></div>
+	<div id="maca"><br></div>
+	<div id="melao"><br></div>
+	<div id="maca_v"><br></div>
+	<div id="melancia"><br></div>
+	<div id="donut"><br></div>
+	<div id="miojo"><br></div>
+	<div id="whiskey"><br></div>
+	<div id="chocolate"><br></div>
+	<div id="leite"><br></div>
+	<div id="choc_v"><br></div>
+	<div id="laranja"><br></div>
+	<div id="cerejas"><br></div>
+	<div id="refri"><br></div>
+	<div id="cigarro"><br></div>
+	<div class="vitoria"></div>
+	<div class="fim" onclick="start();"></div>
+</div>
+<div id="placar" onload="pontos()"></div>
+<div id="tempo" onload="cronos()"></div>
+<div id="saude" onload="vidas()"></div>
+
+<audio src="../public/sons/Club_Seamus.mp3" preload="auto" id="musica"></audio>
+<audio src="../public/sons/Discovery_Hit.mp3" preload="auto" id="gameover"></audio>
+<audio src="../public/sons/Loping_Sting.mp3" preload="auto" id="victory"></audio>
+
+<div id="buttonrow">
+	<a href="menu.html" id="default_button">Sair</a>
+	<a href="n7.html" id="default_button">Reiniciar</a>
+	<button id="default_button" onclick="pausa();">Pausar</button>
+</div>
+</body>
+</html>
