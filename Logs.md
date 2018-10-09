@@ -1,3 +1,16 @@
+# Log - Versão 0.7 beta
+
+---
+## Atualização: 09 de Outubro de 2018
+---
+### Mudanças:
+
++ Implementando o jogo no Projeto Sinatra
++ Rotas re-estabelecidas para o padrão Ruby
++ Para ver o que há de novo, consulte este [Site](https://github.com/senai-sj/Projeto-Offline/releases)
+
+---
+
 # Log - Versão 0.2 alpha
 
 ---
