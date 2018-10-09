@@ -64,6 +64,10 @@ get '/creditos' do
 	erb :creditos
 end
 
+get '/licenca' do
+	@views = get_files('./views')
+	erb :licenca
+end
 
 get '/perfil' do
 	@views = get_files('./views')

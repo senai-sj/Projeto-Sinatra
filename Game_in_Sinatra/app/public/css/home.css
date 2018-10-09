@@ -78,14 +78,14 @@ html, body {
 
 #form {
 	padding: 1em;
+	position: relative;
 	font-family: verdana;
 	font-size: 15px;
 	text-align: center;
 	color: #FFF;
 }
-#form ul {list-style: none;}
 
-#form li {margin-bottom: 6px;}
+#form a {margin-bottom: 4px;}
 
 footer {
 	position: absolute;

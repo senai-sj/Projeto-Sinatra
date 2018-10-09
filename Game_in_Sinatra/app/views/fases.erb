@@ -1,72 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>SlideQuest</title>
+	<meta charset="UTF-8">
+	<title>Frutorama</title>
+	<link rel="icon" href="../favicon-16x16.png">
 	<link href="/css/fases.css" type="text/css" rel="stylesheet">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 </head>
 <body class="fundo">
 	<div id="header">
-<h1>Slide Quest</h1>
-<h1 id="subheader">Selecione uma Fase</h1>
+<h1>Frutorama</h1>
 </div>
+<h1 id="subheader">Selecione o modo em que pretende jogar</h1>
 <div id="form">
-	<table class="stages" align="center">
-	<tr>
-		<td>1</td>
-		<td>2</td>
-		<td>3</td>
-		<td>4</td>
-		<td>5</td>
-	</tr>
-	<tr>
-		<td>6</td>
-		<td>7</td>
-		<td>8</td>
-		<td>9</td>
-		<td>10</td>
-	</tr>
-	<tr>
-		<td>11</td>
-		<td>12</td>
-		<td>13</td>
-		<td>14</td>
-		<td>15</td>
-	</tr>
-	<tr>
-		<td>16</td>
-		<td>17</td>
-		<td>18</td>
-		<td>19</td>
-		<td>20</td>
-	</tr>
-	</table>
-<br>
-	<table class="info" align="center">
-		<tr>
-		<td>Fase 1</td>
-		<td>3X3</td>
-	</tr>
-	</table>
-	<br>
-	<table class="status" align="center">
-		<tr>
-		<td>Melhor Tempo:</td>
-		<td>00:00:00</td>
-	</tr>
-	<tr>
-		<td>Pontuação:</td>
-		<td>0 Pontos</td>
-	</tr>
-	<tr>
-		<td>Bonus de Dificuldade:</td>
-		<td>x1.0</td>
-	</tr>
-	</table>
+		<a href="/n1" id="game_button" title="Inicia o jogo no modo normal">Modo Normal</a><br>
+		<a href="/contratempo" id="game_button" title="Inicia o modo contra o relógio">Contra o Tempo</a>
 </div>
-<div id="form">
-	<a href="/menu"><button name="btnVoltar" id="default_button">Voltar</button></a>
-	<a href="/jogo"><button name="btnJogar" id="default_button">Jogar</button></a>
-</div>
+	<a href="/menu" id="default_button" title="Voltar ao menu">Voltar</a>
+<footer>
+	Versão 0.7 &copy; Copyright SENAI - All Rights Reserved (Sinatra)
+</footer>
 </body>
 </html>

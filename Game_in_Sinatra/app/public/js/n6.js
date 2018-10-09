@@ -552,6 +552,6 @@ function vitoria() {
 	musica.pause();
 	victory.play();
 
-	$(".vitoria").html("<h1>Parabéns!</h1> <h1>Pontuação Final:"+pontos+"</h1><a href='N7.html'>Clique para ir para o próximo nível</a>");
+	$(".vitoria").html("<h1>Parabéns!</h1> <h1>Pontuação Final:"+pontos+"</h1><a href='/n7'>Clique para ir para o próximo nível</a>");
 	}
 }

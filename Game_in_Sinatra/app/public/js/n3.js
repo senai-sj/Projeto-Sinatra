@@ -470,6 +470,6 @@ function vitoria() {
 	musica.pause();
 	victory.play();
 
-	$(".vitoria").html("<h1>Parabéns!</h1> <h1>Pontuação Final:"+pontos+"</h1><a href='n4.html'>Clique para ir para o próximo nível</a>");
+	$(".vitoria").html("<h1>Parabéns!</h1> <h1>Pontuação Final:"+pontos+"</h1><a href='/n4'>Clique para ir para o próximo nível</a>");
 	}
 }
