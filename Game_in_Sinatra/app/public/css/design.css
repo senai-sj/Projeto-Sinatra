@@ -1,3 +1,24 @@
+@font-face {
+	font-family: NOZSTUDIO;
+	src:url(../fonts/NOZSTUDIO.TTF);
+}
+@font-face {
+	font-family: Digital;
+	src:url(../fonts/Digital.TTF);
+}
+@font-face {
+	font-family: Pepperoni;
+	src:url(../fonts/pepperoni_pizza.TTF);
+}
+@font-face {
+	font-family: Neigfriste;
+	src:url(../fonts/Neigfriste.TTF);
+}
+@font-face {
+	font-family: OpenDyslexic;
+	src:url(../fonts/OpenDyslexic.TTF);
+}
+
 html, body {
 	height: 60%;
 	background-repeat: no-repeat;
@@ -5,23 +26,24 @@ html, body {
 }
 /* Divs e Containers*/
 #header {
-	font-family: BankGothic Md BT, fantasy;
+	font-family: Pepperoni;
 	font-size: 60px;
 	text-align: center;
-	text-shadow:0px 0px 8px #FF0;
-	color: #FFF;
+	text-shadow:0px 0px 15px #F00;
+	color: #F90;
 }
 
 #subheader {
-	font-family: BankGothic Md BT, fantasy;
+	font-family: Pepperoni;
 	font-size: 50px;
 	text-align: center;
-	text-shadow:0px 0px 8px #FF0;
+	text-shadow:0px 0px 8px #00B8C9;
 	color: #FFF;
 }
 
 #form {
 	padding: 1em;
+	position: relative;
 	font-family: verdana;
 	font-size: 15px;
 	text-align: center;
@@ -32,31 +54,29 @@ html, body {
 #form li {margin-bottom: 6px;}
 
 footer {
-	font-family: verdana;
+	position: absolute;
+	font-family: OpenDyslexic;
 	font-size: 14px;
 	color: #FFF;
 	text-align: right;
-	text-shadow:0px 0px 8px #FF0;
-	padding-bottom: 3em;
-	padding-top: 2em;
-	padding-right: 3em;
+	text-shadow:0px 0px 8px #00FFA0;
+	top: 95%;
+	left: 60%;
 }
 
-.config {
-	min-width: 450px;
-	max-width: 450px;
-	align-content: center;
-	margin-left: 38em;
-	margin-right: 10em;
-	border: 1px solid;
-	border-radius: 0px;
-	font-size: 14px;
-	font-family: verdana;
-	text-align: center;
-	border: 1px solid #000;
-	background:linear-gradient(to bottom, #0063d0 10%, #003e83 100%);
+.intro {
+	padding: 1em;
+	background-color: #000000AA;
 	color: #FFF;
-	float: middle;
+	text-shadow:1px 1px 8px #00C9E9;
+	cursor: pointer;
+	font-family: OpenDyslexic;
+	font-size: 12px;
+	text-align: center;
+	margin-left: auto;
+	margin-right:auto;
+	width: 400px;
+	height: 350px;
 }
 
 .alinhamento {
@@ -79,6 +99,7 @@ footer {
 
 #default_button {
 	padding: 1em;
+	margin-top: 3px;
 	min-width: 180px;
 	max-width: 300px;
 	border: 0px solid #000;
@@ -87,7 +108,7 @@ footer {
 	cursor:pointer;
 	-webkit-transition: .5s;
 	transition: .5s;
-	font-family: Humnst777 BT, calibri, arial;
+	font-family: Neigfriste;
 	font-size: 18px;
 	padding:6px 10px;
 	text-decoration:none;
@@ -109,30 +130,6 @@ footer {
 	font-family: verdana;
 	font-size: 16px;
 	text-align: center;
-}
-
-.bg-blue {
-	background:linear-gradient(to bottom, #3d07ff 10%, #5526ff 100%);
-	font-family: verdana;
-	font-size: 16px;
-	text-align: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-    background-attachment: fixed;
-}
-.bg-ranking{
-	background: linear-gradient(to bottom right, #ef9288, #8be9f9);
-	font-size: 16px;
-	text-align: center;
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-#navbar {
-	padding: 1em;
-	font: verdana;
-	color: #000;
-	text-shadow: 0px 1px 0px #000;
-	background-color: #F90;
 }
 
 #table{

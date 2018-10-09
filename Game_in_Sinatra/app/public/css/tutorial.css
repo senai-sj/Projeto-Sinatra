@@ -1,0 +1,257 @@
+@font-face {
+	font-family: NOZSTUDIO;
+	src:url(../fonts/NOZSTUDIO.TTF);
+}
+@font-face {
+	font-family: Digital;
+	src:url(../fonts/Digital.TTF);
+}
+@font-face {
+	font-family: Pepperoni;
+	src:url(../fonts/pepperoni_pizza.TTF);
+}
+@font-face {
+	font-family: Neigfriste;
+	src:url(../fonts/Neigfriste.TTF);
+}
+@font-face {
+	font-family: OpenDyslexic;
+	src:url(../fonts/OpenDyslexic.TTF);
+
+}html, body {
+	height: 60%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/* Divs e Containers*/
+#header {
+	font-family: Pepperoni;
+	font-size: 60px;
+	text-align: center;
+	text-shadow:0px 0px 8px #F00;
+	color: #F90;
+}
+
+#subheader {
+	font-family: Pepperoni;
+	font-size: 50px;
+	text-align: center;
+	text-shadow:0px 0px 8px #00B8C9;
+	color: #FFF;
+}
+
+#form {
+	padding: 1em;
+	width: 500px;
+	height: 150px;
+	position: relative;
+	background-color: #000000AA;
+	border: 1px solid white;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: OpenDyslexic;
+	font-size: 15px;
+	text-align: center;
+	color: #FFF;
+}
+#form ul {list-style: none;}
+
+#form li {margin-bottom: 6px;}
+
+footer {
+	position: absolute;
+	font-family: OpenDyslexic;
+	font-size: 14px;
+	color: #FFF;
+	text-align: right;
+	text-shadow:0px 0px 8px #00FFA0;
+	top: 175%;
+	left: 60%;
+}
+
+.alinhamento {
+	padding: 1em;
+	font-family: verdana;
+	font-size: 15px;
+	text-align: center;
+	color: #000;
+}
+/* Botões e caixas*/
+
+#default_button {
+	padding: 1em;
+	min-width: 180px;
+	max-width: 300px;
+	border: 0px solid #000;
+	border-radius: 0px;
+	display:inline-block;
+	cursor:pointer;
+	-webkit-transition: .5s;
+	transition: .5s;
+	font-family: Neigfriste;
+	font-size: 18px;
+	padding:6px 10px;
+	text-decoration:none;
+	box-shadow: 0px 3px 8px #000;
+	background:linear-gradient(to bottom, #003e83 10%, #0063d0 100%);
+	color: #FFF;
+}
+
+#default_button:hover {
+	background:linear-gradient(to bottom, #0157b7 10%, #0078fc 100%);
+	-webkit-transition: .5s;
+	transition: .5s;
+	color: #000;
+}
+
+/* Planos de Fundo*/
+.fundo {
+	background-color: #0a131a;
+	font-family: verdana;
+	font-size: 16px;
+	text-align: center;
+}
+
+#lista{
+	padding: 1em;
+	padding-left: 4em;
+	width: 800px;
+	height: 450px;
+	position: relative;
+	background-color: #000000AA;
+	border: 1px solid white;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: OpenDyslexic;
+	font-size: 13px;
+	text-align: left;
+	color: #FFF;
+}
+#lista h1 {
+	text-align: center;
+}
+#ng1 {position: absolute;top: 85px;left: 580px;font-weight: normal;}
+#ng2 {position: absolute;top: 125px;left: 580px;font-weight: normal;}
+#ng3 {position: absolute;top: 165px;left: 580px;font-weight: normal;}
+#ng4 {position: absolute;top: 215px;left: 580px;font-weight: normal;}
+#ng5 {position: absolute;top: 268px;left: 580px;font-weight: normal;}
+#ng6 {position: absolute;top: 300px;left: 580px;font-weight: normal;}
+
+#buttonrow {
+	padding: 1em;
+	position: relative;
+}
+
+/* Itens */
+#maca {
+	background-image: url("../img/maçã.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 8px;
+	top: 90px;
+}
+#maca_v {
+	background-image: url("../img/maçã_verde.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 8px;
+	top: 125px;
+}
+#melao {
+	background-image: url("../img/melao.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	left: 10px;
+	top: 204px;
+}
+#melancia {
+	background-image: url("../img/melancia.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 8px;
+	top: 233px;
+}
+#laranja {
+	background-image: url("../img/laranja.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 8px;
+	top: 160px;
+}
+#leite {
+	background-image: url("../img/leite.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 12px;
+	top: 270px;
+}
+#chocolate {
+	background-image: url("../img/chocolate.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 12px;
+	top: 305px;
+}
+#cereja {
+	background-image: url("../img/cerejas.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 15px;
+	top: 345px;
+}
+#donut {
+	background-image: url("../img/donut.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	top: 95px;
+	left: 535px;
+}
+#refri {
+	background-image: url("../img/Refri.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 20px;
+	height: 29px;
+	top: 135px;
+	left: 540px;
+}
+#miojo {
+	background-image: url("../img/miojo.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 20px;
+	height: 29px;
+	top: 190px;
+	left: 540px;
+}
+#choc_v {
+	background-image: url("../img/choc_veg.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 540px;
+	top: 235px;
+}
+#cigarro {
+	background-image: url("../img/cigarros.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 545px;
+	top: 283px;
+}
+#whiskey {
+	background-image: url("../img/whiskey.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 546px;
+	top: 308px;
+}

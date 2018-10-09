@@ -19,27 +19,76 @@
 	src:url(../fonts/OpenDyslexic.TTF);
 }
 
-html, body {
-	height: 60%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+.alinhamento {
+	padding: 1em;
+	font-family: verdana;
+	font-size: 15px;
+	text-align: center;
+	color: #000;
 }
 
-/* Divs e Containers*/
 #header {
 	font-family: Pepperoni;
-	font-size: 50px;
+	font-size: 40px;
 	text-align: center;
-	text-shadow:0px 0px 15px #F00;
-	color: #F90;
+	text-shadow:1px 1px 3px #cc9c02;
+	color: #00000055;
 }
 
 #subheader {
-	font-family: Pepperoni;
+	font-family: OpenDyslexic;
 	font-size: 30px;
 	text-align: center;
-	text-shadow:0px 0px 8px #00B8C9;
+	text-shadow:1px 1px 3px #a5a4a0;
+	color: #00000055;
+}
+
+#NOZ_sample {
+	font-family: NOZSTUDIO;
+}
+#dig_sample {
+	font-family: Digital;
+	text-shadow: 0px 2px 15px #000;
+}
+#pepper_sample {
+	font-family: Pepperoni;
+	text-shadow: 0px 2px 15px #000;
+}
+#neig_sample {
+	font-family: Neigfriste;
+}
+#open_sample {
+	font-family: OpenDyslexic;
+}
+.license {
+	width: 500px;
+	min-height: 150px;
+	max-height: 1800px;
+	display:inline-block;
+	text-align: center;
+	font-size: 14px;
+	font-family: arial;
+	text-align: center;
+	border: 1px solid #FFFFFF55;
+	background-color: #000000BB;
 	color: #FFF;
+}
+.license a{
+	text-align: center;
+	font-size: 16px;
+	font-family: arial;
+	text-align: center;
+	color: #EEE;
+}
+.termos {
+	display:inline-block;
+	text-align: center;
+	font-size: 16px;
+	font-family: OpenDyslexic;
+	text-align: center;
+	border: 2px solid #000482;
+	background:linear-gradient(to bottom, #FFFFFFAA 10%, #FFFFFFEE);
+	color: #000;
 }
 
 #default_button {
@@ -67,25 +116,22 @@ html, body {
 	transition: .5s;
 	color: #000;
 }
-
 /* Planos de Fundo*/
+
 .fundo {
-	background-color: #0a131a;
+	background-color: #030308;
 	font-family: verdana;
 	font-size: 16px;
 	text-align: center;
 }
 
-#form {
-	padding: 1em;
-	font-family: verdana;
-	font-size: 15px;
-	text-align: center;
-	color: #FFF;
+/* Arquivos Padrões */
+html, body {
+	margin: 0;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
-#form ul {list-style: none;}
-
-#form li {margin-bottom: 6px;}
 
 footer {
 	position: absolute;
@@ -94,6 +140,6 @@ footer {
 	color: #FFF;
 	text-align: right;
 	text-shadow:0px 0px 8px #00FFA0;
-	top: 95%;
+	top: 560%;
 	left: 60%;
 }
