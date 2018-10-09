@@ -1,3 +1,24 @@
+@font-face {
+	font-family: NOZSTUDIO;
+	src:url(../fonts/NOZSTUDIO.TTF);
+}
+@font-face {
+	font-family: Digital;
+	src:url(../fonts/Digital.TTF);
+}
+@font-face {
+	font-family: Pepperoni;
+	src:url(../fonts/pepperoni_pizza.TTF);
+}
+@font-face {
+	font-family: Neigfriste;
+	src:url(../fonts/Neigfriste.TTF);
+}
+@font-face {
+	font-family: OpenDyslexic;
+	src:url(../fonts/OpenDyslexic.TTF);
+}
+
 html, body {
 	margin: 0;
 	height: 100%;
@@ -6,18 +27,18 @@ html, body {
 }
 
 #header {
-	font-family: BankGothic Md BT, fantasy;
-	font-size: 60px;
+	font-family: Pepperoni;
+	font-size: 50px;
 	text-align: center;
-	text-shadow:0px 0px 8px #FF0;
-	color: #FFF;
+	text-shadow:0px 0px 8px #F00;
+	color: #F90;
 }
 
 #subheader {
-	font-family: BankGothic Md BT, fantasy;
-	font-size: 50px;
+	font-family: Pepperoni;
+	font-size: 30px;
 	text-align: center;
-	text-shadow:0px 0px 8px #FF0;
+	text-shadow:0px 0px 8px #00B8C9;
 	color: #FFF;
 }
 
@@ -39,7 +60,7 @@ html, body {
 	cursor:pointer;
 	-webkit-transition: .5s;
 	transition: .5s;
-	font-family: Humnst777 BT, calibri, arial;
+	font-family: Neigfriste;
 	font-size: 18px;
 	padding:6px 10px;
 	text-decoration:none;
@@ -54,33 +75,41 @@ html, body {
 	transition: .5s;
 	color: #000;
 }
+#game_button {
+	padding: 1em;
+	min-width: 180px;
+	max-width: 200px;
+	border: 2px solid #000;
+	border-radius: 0px;
+	display:inline-block;
+	cursor:pointer;
+	-webkit-transition: .5s;
+	transition: .5s;
+	font-family: Neigfriste;
+	font-size: 18px;
+	padding:6px 10px;
+	text-decoration:none;
+	box-shadow: 0px 3px 8px #000;
+	background:linear-gradient(to bottom, #003e8355 10%, #0063d055 100%);
+	color: #000;
+}
+
+#game_button:hover {
+	background:linear-gradient(to bottom, #003e83 10%, #0063d0 100%);
+	-webkit-transition: .5s;
+	transition: .5s;
+	color: #FFF;
+}
 
 .fundo {
 	background-color: #0a131a;
+	background-repeat: no-repeat;
 	font-family: verdana;
 	font-size: 16px;
 	text-align: center;
 }
 /* Design dos Botões das fases*/
-.stages {
-	height: 10px;
-	font-family: calibri;
-	font-weight: bold;
-	font-size: 16px;
-	background-color: #222;
-	color: #000;
-}
-.stages td{
-	width: 50px;
-	height: 50px;
-	font-family: calibri;
-	font-weight: bold;
-	font-size: 16px;
-	cursor:pointer;
-	background:linear-gradient(to bottom, #00cec7 10%, #00938e 100%);
-	border: 1px solid black;
-	color: #000;
-}
+
 /* Design das Informações da Fase */
 .info {
 	height: 10px;
@@ -123,12 +152,12 @@ html, body {
 }
 
 footer {
-	font-family: verdana;
+	position: absolute;
+	font-family: OpenDyslexic;
 	font-size: 14px;
 	color: #FFF;
 	text-align: right;
-	text-shadow:0px 0px 8px #FF0;
-	padding-bottom: 3em;
-	padding-top: 15em;
-	padding-right: 3em;
+	text-shadow:0px 0px 8px #00FFA0;
+	top: 95%;
+	left: 60%;
 }

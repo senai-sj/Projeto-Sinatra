@@ -1,15 +1,26 @@
-#grid {
-	border: 3px solid #000;
-	font-family: verdana;
-	font-weight: bold;
-	font-size: 20px;
-	color: #FFF;
-	background:linear-gradient(to bottom, #2a0f99 10%, #3b10e8 100%);
-	cursor: pointer;
+@font-face {
+	font-family: NOZSTUDIO;
+	src:url(../fonts/NOZSTUDIO.TTF);
+}
+@font-face {
+	font-family: Digital;
+	src:url(../fonts/Digital.TTF);
+}
+@font-face {
+	font-family: Pepperoni;
+	src:url(../fonts/pepperoni_pizza.TTF);
+}
+@font-face {
+	font-family: Neigfriste;
+	src:url(../fonts/Neigfriste.TTF);
+}
+@font-face {
+	font-family: OpenDyslexic;
+	src:url(../fonts/OpenDyslexic.TTF);
 }
 
 #header {
-	font-family: BankGothic Md BT, fantasy;
+	font-family: Pepperoni;
 	font-size: 40px;
 	text-align: center;
 	text-shadow:0px 0px 8px #FF0;
@@ -17,11 +28,13 @@
 }
 
 #subheader {
-	font-family: BankGothic Md BT, fantasy;
-	font-size: 35px;
+	padding: 5px;
+	font-family: Pepperoni;
+	font-size: 45px;
+	font-style: italic;
 	text-align: center;
-	text-shadow:0px 0px 8px #FF0;
-	color: #FFF;
+	text-shadow: 2px 2px 8px #00C9E9;
+	color: #fff;
 }
 
 html, body {
@@ -29,24 +42,6 @@ html, body {
 	height: 40%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-}
-
-#bt-yellow {
-	padding: 1em;
-	width: 120px;
-	border: 0px solid;
-	border-radius:40px;
-	display:inline-block;
-	cursor:pointer;
-	-webkit-transition: .5s;
-	transition: .5s;
-	font-family: verdana;
-	font-weight:bold;
-	font-size: 16px;
-	padding:6px 10px;
-	box-shadow: 0px 3px 8px #000;
-	background:linear-gradient(to bottom, #F90 10%, #F2ED00 100%);
-	color: #000;
 }
 
 #default_button {
@@ -59,7 +54,7 @@ html, body {
 	cursor:pointer;
 	-webkit-transition: .5s;
 	transition: .5s;
-	font-family: Humnst777 BT, calibri, arial;
+	font-family: Neigfriste;
 	font-size: 18px;
 	padding:6px 10px;
 	text-decoration:none;
@@ -74,21 +69,392 @@ html, body {
 	transition: .5s;
 	color: #000;
 }
-
+#buttonrow {
+	padding: 1em;
+	position: relative;
+	top: -60px;
+}
 .fundo {
 	background-color: #0a131a;
 	font-family: verdana;
 	font-size: 16px;
 	text-align: center;
 }
-
-footer {
-	font-family: verdana;
-	font-size: 14px;
-	color: #FFF;
-	text-align: right;
-	text-shadow:0px 0px 8px #FF0;
-	padding-bottom: 3em;
-	padding-top: 12em;
-	padding-right: 3em;
+.bg {
+	padding: 1em;
+	background-image: url(../img/Palmeiras.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-left: auto;
+	margin-right:auto;
+	width: 720px;
+	height: 520px;
 }
+.bg2 {
+	padding: 1em;
+	background-image: url(../img/montanhas.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-left: auto;
+	margin-right:auto;
+	width: 720px;
+	height: 520px;
+}
+.bg3 {
+	padding: 1em;
+	background-image: url(../img/cidade.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-left: auto;
+	margin-right:auto;
+	width: 720px;
+	height: 520px;
+}
+.bg4 {
+	padding: 1em;
+	background-image: url(../img/campo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-left: auto;
+	margin-right:auto;
+	width: 720px;
+	height: 520px;
+}
+.bg5 {
+	padding: 1em;
+	background-image: url(../img/sol_nascente.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-left: auto;
+	margin-right:auto;
+	width: 720px;
+	height: 520px;
+}
+.bg6 {
+	padding: 1em;
+	background-image: url(../img/neon.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-left: auto;
+	margin-right:auto;
+	width: 720px;
+	height: 520px;
+}
+.bg7 {
+	padding: 1em;
+	background-image: url(../img/porto.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-left: auto;
+	margin-right:auto;
+	width: 720px;
+	height: 520px;
+}
+.bg8 {
+	padding: 1em;
+	background-image: url(../img/metropolis.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-left: auto;
+	margin-right:auto;
+	width: 720px;
+	height: 520px;
+}
+.bg9 {
+	padding: 1em;
+	background-image: url(../img/prados.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-left: auto;
+	margin-right:auto;
+	width: 720px;
+	height: 520px;
+}
+.bg10 {
+	padding: 1em;
+	background-image: url(../img/templo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-left: auto;
+	margin-right:auto;
+	width: 720px;
+	height: 520px;
+}
+
+/* Código Copiado */
+.inicio {
+	padding: 1em;
+	background-color: #000000AA;
+	color: #FFF;
+	text-shadow:1px 1px 8px #00C9E9;
+	cursor: pointer;
+	font-family: NOZSTUDIO;
+	font-size: 11px;
+	text-align: center;
+	position: absolute;
+	margin-left: auto;
+	margin-right:auto;
+	width: 400px;
+	height: 350px;
+	top: 75px;
+	left: 165px;
+}
+.intro {
+	padding: 1em;
+	background-color: #000000AA;
+	border: 1px solid #FFF;
+	color: #FFF;
+	text-shadow:1px 1px 8px #00C9E9;
+	cursor: pointer;
+	font-family: NOZSTUDIO;
+	font-size: 11px;
+	text-align: center;
+	position: absolute;
+	margin-left: auto;
+	margin-right:auto;
+	width: 300px;
+	height: 75px;
+	top: 150px;
+	left: 210px;
+}
+.fim {
+	padding: 1em;
+	background-color: #000000AA;
+	color: #FC0000;
+	text-shadow:1px 1px 8px #CC0000;
+	border: 1px solid #FFF;
+	font-family: NOZSTUDIO;
+	font-size: 12px;
+	text-align: center;
+	position: absolute;
+	margin-left: auto;
+	margin-right:auto;
+	width: 400px;
+	height: 200px;
+	top: 75px;
+	left: 165px;
+	cursor: pointer;
+}
+.vitoria {
+	padding: 1em;
+	background-color: #f7d14aEE;
+	color: #FFF;
+	text-shadow:1px 1px 8px #00C9E9;
+	border: 1px solid #FFF;
+	font-family: NOZSTUDIO;
+	font-size: 12px;
+	text-align: center;
+	position: absolute;
+	margin-left: auto;
+	margin-right:auto;
+	width: 400px;
+	height: 200px;
+	top: 75px;
+	left: 165px;
+	cursor: pointer;
+}
+.pausa {
+	padding: 1em;
+	background-color: #000000AA;
+	color: #FFF;
+	text-shadow:1px 1px 8px #00C9E9;
+	border: 1px solid #FFF;
+	font-family: NOZSTUDIO;
+	font-size: 12px;
+	text-align: center;
+	position: absolute;
+	margin-left: auto;
+	margin-right:auto;
+	width: 400px;
+	height: 200px;
+	top: 75px;
+	left: 165px;
+	cursor: pointer;
+}
+#player {
+	width:50px;
+	height:30px;
+	background-image: url("../img/cesto.png");background-repeat: no-repeat;
+	position: absolute;
+	top: 500px;
+	left: 350px;
+}
+#maca {
+	background-image: url("../img/maçã.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 8px;
+	top: 90px;
+}
+#maca_v {
+	background-image: url("../img/maçã_verde.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 8px;
+	top: 125px;
+}
+#melao {
+	background-image: url("../img/melao.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	left: 10px;
+	top: 204px;
+}
+#melancia {
+	background-image: url("../img/melancia.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 8px;
+	top: 233px;
+}
+#laranja {
+	background-image: url("../img/laranja.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 8px;
+	top: 160px;
+}
+#leite {
+	background-image: url("../img/leite.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 12px;
+	top: 270px;
+}
+#chocolate {
+	background-image: url("../img/chocolate.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 12px;
+	top: 305px;
+}
+#cereja {
+	background-image: url("../img/cerejas.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 15px;
+	top: 345px;
+}
+#donut {
+	background-image: url("../img/donut.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	top: 95px;
+	left: 535px;
+}
+#refri {
+	background-image: url("../img/Refri.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 20px;
+	height: 29px;
+	top: 135px;
+	left: 540px;
+}
+#miojo {
+	background-image: url("../img/miojo.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 20px;
+	height: 29px;
+	top: 190px;
+	left: 540px;
+}
+#choc_v {
+	background-image: url("../img/choc_veg.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 540px;
+	top: 235px;
+}
+#cigarro {
+	background-image: url("../img/cigarros.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 545px;
+	top: 283px;
+}
+#whiskey {
+	background-image: url("../img/whiskey.png");background-repeat: no-repeat;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 546px;
+	top: 308px;
+}
+
+/* Estrutura*/
+#placar {
+	padding: 1em;
+	position: relative;
+	color: #E2DB00;
+	text-shadow:0px 0px 8px #000;
+	background-color: #000000DD;
+	width: 716px;
+	height: 5px;
+	font-family: Digital;
+	font-size: 18px;
+	text-align: left;
+	margin-left: auto;
+	margin-right:auto;
+}
+#placar p {
+	position: absolute;
+	top: -12px;
+}
+#saude {
+	padding: 1em;
+	position: relative;
+	color: #C91836;
+	text-shadow:0px 0px 8px #000;
+	width: 716px;
+	height: 0px;
+	font-family: Digital;
+	font-size: 18px;
+	text-align: right;
+	margin-left: auto;
+	margin-right:auto;
+}
+#saude p {
+	position: absolute;
+	top: -90px;
+	left: 550px;
+}
+#tempo {
+	padding: 1em;
+	position: relative;
+	color: #00C900;
+	text-shadow:0px 0px 8px #000;
+	width: 716px;
+	height: 0px;
+	font-family: Digital;
+	font-size: 18px;
+	text-align: right;
+	margin-left: auto;
+	margin-right:auto;
+}
+#tempo p {
+	position: absolute;
+	top: -53px;
+	left: 240px;
+}
+/* fim do Código Copiado*/

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>SlideQuest - Modo Normal</title>
+	<link rel="icon" href="../favicon-16x16.png">
+	<link href="../public/css/jogo.css" type="text/css" rel="stylesheet">
+	<script src="../public/js/Jquery.js"></script>
+	<script src="../public/js/n1.js"></script>
+</head>
+<body class="fundo">
+<div class="bg">
+	<div class="inicio" onclick="start();">
+		<h1>Instruções</h1><br>
+		<p>Mova o personagem com as setas < - > ou A e D</p><br>
+		<p>Colete as frutas e verduras e evite a comida processada</p><br>
+		<p>Colete todos os itens para prosseguir para a próxima fase</p>
+		<p>Boa Sorte!</p><br>
+		<b>♫ Fones de ouvido Recomendados ♫</b>
+		<h3>Clique aqui para iniciar</h3>
+	</div>
+	<div id="player"><br></div>
+	<div id="maca"><br></div>
+	<div id="melao"><br></div>
+	<div id="donut"><br></div>
+	<div id="laranja"><br></div>
+	<div id="refri"><br></div>
+<!-- 	<div class="pausa" onclick="resumir()">
+		<h1>Jogo Pausado</h1>
+		<p>Clique aqui para continuar</p>
+	</div> -->
+	<div class="vitoria"></div>
+	<div class="fim" onclick="start();"></div>
+</div>
+<div id="placar" onload="pontos()"></div>
+<div id="tempo" onload="cronos()"></div>
+<div id="saude" onload="vidas()"></div>
+
+<audio src="../public/sons/BossaBossa.mp3" preload="auto" id="musica"></audio>
+<audio src="../public/sons/Discovery_Hit.mp3" preload="auto" id="gameover"></audio>
+<audio src="../public/sons/Loping_Sting.mp3" preload="auto" id="victory"></audio>
+
+<div id="buttonrow">
+	<a href="menu.html" id="default_button">Sair</a>
+	<a href="n1.html" id="default_button">Reiniciar</a>
+	<button id="default_button" onclick="pausa();">Pausar</button>
+</div>
+</body>
+</html>

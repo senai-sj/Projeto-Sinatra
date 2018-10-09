@@ -74,3 +74,55 @@ get '/lideres' do
 	@views = get_files('./views')
 	erb :lideres
 end
+
+## Fases
+
+get '/n1' do
+	@views = get_files('./views')
+	erb :n1
+end
+
+get '/n2' do
+	@views = get_files('./views')
+	erb :n2
+end
+
+get '/n3' do
+	@views = get_files('./views')
+	erb :n3
+end
+
+get '/n4' do
+	@views = get_files('./views')
+	erb :n4
+end
+
+get '/n5' do
+	@views = get_files('./views')
+	erb :n5
+end
+
+get '/n6' do
+	@views = get_files('./views')
+	erb :n6
+end
+
+get '/n7' do
+	@views = get_files('./views')
+	erb :n7
+end
+
+get '/n8' do
+	@views = get_files('./views')
+	erb :n8
+end
+
+get '/n9' do
+	@views = get_files('./views')
+	erb :n9
+end
+
+get '/n10' do
+	@views = get_files('./views')
+	erb :n10
+end

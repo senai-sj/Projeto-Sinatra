@@ -1,3 +1,24 @@
+@font-face {
+	font-family: NOZSTUDIO;
+	src:url(../fonts/NOZSTUDIO.TTF);
+}
+@font-face {
+	font-family: Digital;
+	src:url(../fonts/Digital.TTF);
+}
+@font-face {
+	font-family: Pepperoni;
+	src:url(../fonts/pepperoni_pizza.TTF);
+}
+@font-face {
+	font-family: Neigfriste;
+	src:url(../fonts/Neigfriste.TTF);
+}
+@font-face {
+	font-family: OpenDyslexic;
+	src:url(../fonts/OpenDyslexic.TTF);
+}
+
 html, body {
 	height: 60%;
 	background-repeat: no-repeat;
@@ -6,7 +27,7 @@ html, body {
 
 /* Divs e Containers*/
 #header {
-	font-family: BankGothic Md BT, fantasy;
+	font-family: Pepperoni;
 	font-size: 60px;
 	text-align: center;
 	text-shadow:0px 0px 8px #FF0;
@@ -14,7 +35,7 @@ html, body {
 }
 
 #subheader {
-	font-family: BankGothic Md BT, fantasy;
+	font-family: Pepperoni;
 	font-size: 50px;
 	text-align: center;
 	text-shadow:0px 0px 8px #FF0;
@@ -31,7 +52,7 @@ html, body {
 	cursor:pointer;
 	-webkit-transition: .5s;
 	transition: .5s;
-	font-family: Humnst777 BT, calibri, arial;
+	font-family: Neigfriste;
 	font-size: 18px;
 	padding:6px 10px;
 	text-decoration:none;
@@ -77,7 +98,7 @@ html, body {
 }
 
 .signup label{
-	font-family: verdana;
+	font-family: Neigfriste;
 	font-size: 16px;
 	color: white;
 	position: center;
@@ -86,7 +107,7 @@ html, body {
 }
 
 .signup input {
-    font-family: verdana;
+    font-family: Neigfriste;
     background-color: #FFF;
     border: 1px solid black;
     float: right;
@@ -95,7 +116,7 @@ html, body {
     padding: 3px;
 }
 footer {
-	font-family: verdana;
+	font-family: OpenDyslexic;
 	font-size: 14px;
 	color: #FFF;
 	text-align: right;
