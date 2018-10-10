@@ -267,7 +267,8 @@ function colisao() {
 		$("#maca").css("top", 0);
             pontos+=100;
             itens-=1;
-            if (itens == 0) {
+            if (itens <= 0) {
+				pontos-=100;
 				vitoria();
 			} 
             if (pontos<0) {
@@ -286,7 +287,8 @@ function colisao() {
 		$("#melao").css("top", 0);
             pontos+=300;
             itens-=1;
-            if (itens == 0) {
+            if (itens <= 0) {
+				pontos-=300;
 				vitoria();
 			} 
             if (pontos<0) {
@@ -305,7 +307,8 @@ function colisao() {
 		$("#laranja").css("top", 0);
             pontos+=100;
             itens-=1;
-            if (itens == 0) {
+            if (itens <= 0) {
+				pontos-=100;
 				vitoria();
 			} 
             if (pontos<0) {
@@ -325,6 +328,7 @@ function colisao() {
             pontos+=100;
             itens-=1;
             if (itens == 0) {
+				pontos-=100;
 				vitoria();
 			} 
             if (pontos<0) {
@@ -341,9 +345,10 @@ function colisao() {
 	   	respawn = parseInt(Math.random()*720);
 		$("#melancia").css("left",respawn);
 		$("#melancia").css("top", 0);
-            pontos+=750;
+            pontos+=500;
             itens-=1;
-            if (itens == 0) {
+            if (itens <= 0) {
+				pontos-=500;
 				vitoria();
 			} 
             if (pontos<0) {
@@ -361,10 +366,10 @@ function colisao() {
 		$("#donut").css("left",respawn);
 		$("#donut").css("top", 0);
 			itens-=1;
-			if (itens == 0) {
+			if (itens <= 0) {
 				vitoria();
 			} 
-            if (vida == 0) {
+            if (vida <= 0) {
                 fim();
             }
             vida-=1;
@@ -380,10 +385,10 @@ function colisao() {
 		$("#refri").css("left",respawn);
 		$("#refri").css("top", 0);
 			itens-=1;
-			if (itens == 0) {
+			if (itens <= 0) {
 				vitoria();
 			} 
-            if (vida == 0) {
+            if (vida <= 0) {
                 fim();
             }
             vida-=1;

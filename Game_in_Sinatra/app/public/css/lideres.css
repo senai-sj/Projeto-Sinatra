@@ -1,6 +1,27 @@
+@font-face {
+	font-family: NOZSTUDIO;
+	src:url(../fonts/NOZSTUDIO.TTF);
+}
+@font-face {
+	font-family: Digital;
+	src:url(../fonts/Digital.TTF);
+}
+@font-face {
+	font-family: Pepperoni;
+	src:url(../fonts/pepperoni_pizza.TTF);
+}
+@font-face {
+	font-family: Neigfriste;
+	src:url(../fonts/Neigfriste.TTF);
+}
+@font-face {
+	font-family: OpenDyslexic;
+	src:url(../fonts/OpenDyslexic.TTF);
+}
+
 #table{
 	height: 10px;
-	font-family: calibri;
+	font-family: OpenDyslexic;
 	font-weight: bold;
 	font-size: 16px;
 	border: 2px solid black;
@@ -8,7 +29,7 @@
 
 #table thead{
 	height: 10px;
-	font-family: calibri;
+	font-family: OpenDyslexic;
 	font-weight: bold;
 	font-size: 16px;
 	background-color: #C62050;
@@ -18,7 +39,7 @@
 
 #table tbody{
 	height: 10px;
-	font-family: calibri;
+	font-family: OpenDyslexic;
 	font-weight: bold;
 	font-size: 16px;
 	background-color: #EEE;
@@ -27,13 +48,13 @@
 }
 
 #hRanking{
-	font-family: BankGothic Md BT, fantasy;
+	font-family: Neigfriste;
 	font-size: 30px;
 	padding: 1em;
 	color: #FFF;
 }
 #hRanking h3{
-	font-family: BankGothic Md BT, fantasy;
+	font-family: Neigfriste;
 	font-size: 40px;
 	padding: 1em;
 	color: #fff5dd;
@@ -51,7 +72,7 @@
 	cursor:pointer;
 	-webkit-transition: .5s;
 	transition: .5s;
-	font-family: Humnst777 BT, calibri, arial;
+	font-family: Neigfriste;
 	font-size: 18px;
 	padding:6px 10px;
 	text-decoration:none;
@@ -99,12 +120,12 @@ html, body {
 }
 
 footer {
-	font-family: verdana;
+	position: absolute;
+	font-family: OpenDyslexic;
 	font-size: 14px;
 	color: #FFF;
 	text-align: right;
-	text-shadow:0px 0px 8px #FF0;
-	padding-bottom: 3em;
-	padding-top: 8em;
-	padding-right: 3em;
+	text-shadow:0px 0px 8px #DCBBCC;
+	top: 140%;
+	left: 60%;
 }
