@@ -116,12 +116,12 @@ html, body {
     padding: 3px;
 }
 footer {
+	position: absolute;
 	font-family: OpenDyslexic;
 	font-size: 14px;
 	color: #FFF;
 	text-align: right;
-	text-shadow:0px 0px 8px #FF0;
-	padding-bottom: 3em;
-	padding-top: 10em;
-	padding-right: 3em;
+	text-shadow:0px 0px 8px #DCBBCC;
+	top: 140%;
+	left: 60%;
 }

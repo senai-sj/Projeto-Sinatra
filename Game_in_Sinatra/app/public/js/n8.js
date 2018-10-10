@@ -422,8 +422,9 @@ function colisao() {
 		$("#maca").css("top", 0);
             pontos+=100;
             itens-=1;
-            if (itens == 0) {
-				vitoria();
+            if (itens <= 0) {
+				pontos-=100;
+				vitoria()
 			} 
             if (pontos<0) {
                  pontos=0;
@@ -441,8 +442,9 @@ function colisao() {
 		$("#melao").css("top", 0);
             pontos+=300;
             itens-=1;
-            if (itens == 0) {
-				vitoria();
+            if (itens <= 0) {
+				pontos-=300;
+				vitoria()
 			} 
             if (pontos<0) {
                  pontos=0;
@@ -460,8 +462,9 @@ function colisao() {
 		$("#laranja").css("top", 0);
             pontos+=100;
             itens-=1;
-            if (itens == 0) {
-				vitoria();
+            if (itens <= 0) {
+				pontos-=100;
+				vitoria()
 			} 
             if (pontos<0) {
                  pontos=0;
@@ -479,8 +482,9 @@ function colisao() {
 		$("#maca_v").css("top", 0);
             pontos+=100;
             itens-=1;
-            if (itens == 0) {
-				vitoria();
+            if (itens <= 0) {
+				pontos-=100;
+				vitoria()
 			} 
             if (pontos<0) {
                  pontos=0;
@@ -496,10 +500,11 @@ function colisao() {
 	   	respawn = parseInt(Math.random()*720);
 		$("#melancia").css("left",respawn);
 		$("#melancia").css("top", 0);
-            pontos+=750;
+            pontos+=500;
             itens-=1;
-            if (itens == 0) {
-				vitoria();
+            if (itens <= 0) {
+				pontos-=500;
+				vitoria()
 			} 
             if (pontos<0) {
                  pontos=0;
@@ -517,8 +522,9 @@ function colisao() {
 		$("#cereja").css("top", 0);
             pontos+=50;
             itens-=1;
-            if (itens == 0) {
-				vitoria();
+            if (itens <= 0) {
+				pontos-=50;
+				vitoria()
 			} 
             if (pontos<0) {
                  pontos=0;
@@ -535,10 +541,10 @@ function colisao() {
 		$("#donut").css("left",respawn);
 		$("#donut").css("top", 0);
 			itens-=1;
-			if (itens == 0) {
+			if (itens <= 0) {
 				vitoria();
 			} 
-            if (vida == 0) {
+            if (vida <= 0) {
                 fim();
             }
             vida-=1;
@@ -554,10 +560,10 @@ function colisao() {
 		$("#refri").css("left",respawn);
 		$("#refri").css("top", 0);
 			itens-=1;
-			if (itens == 0) {
+			if (itens <= 0) {
 				vitoria();
 			} 
-            if (vida == 0) {
+            if (vida <= 0) {
                 fim();
             }
             vida-=1;
@@ -573,13 +579,13 @@ function colisao() {
 		$("#cigarro").css("left",respawn);
 		$("#cigarro").css("top", 0);
 			itens-=1;
-			if (itens == 0) {
+			if (itens <= 0) {
 				vitoria();
-			} 
-            if (vida == 0) {
+			}
+			vida-=2;
+            if (vida <= 0) {
                 fim();
             }
-            vida-=2;
         }
     }
     if(playerY <= prod4Y){
@@ -592,10 +598,10 @@ function colisao() {
 		$("#miojo").css("left",respawn);
 		$("#miojo").css("top", 0);
 			itens-=1;
-			if (itens == 0) {
+			if (itens <= 0) {
 				vitoria();
 			} 
-            if (vida == 0) {
+            if (vida <= 0) {
                 fim();
             }
             vida-=1;
@@ -611,7 +617,8 @@ function colisao() {
 		$("#leite").css("left",respawn);
 		$("#leite").css("top", 0);
 			itens-=1;
-			if (itens == 0) {
+			if (itens <= 0) {
+				pontos-=250;
 				vitoria();
 			} 
             if (vida >= 5) {
@@ -634,7 +641,8 @@ function colisao() {
 		$("#chocolate").css("left",respawn);
 		$("#chocolate").css("top", 0);
 			itens-=1;
-			if (itens == 0) {
+			if (itens <= 0) {
+				pontos-=200;
 				vitoria();
 			}
 			if (pontos<0) {
@@ -652,11 +660,11 @@ function colisao() {
 	   	respawn = parseInt(Math.random()*720);
 		$("#choc_v").css("left",respawn);
 		$("#choc_v").css("top", 0);
-			if (itens == 0) {
+			if (itens <= 0) {
 				vitoria();
 			}
 			itens-=1;
-            if (vida == 0) {
+            if (vida <= 0) {
                 fim();
             }
             vida-=1;
@@ -671,14 +679,14 @@ function colisao() {
 	   	respawn = parseInt(Math.random()*720);
 		$("#whiskey").css("left",respawn);
 		$("#whiskey").css("top", 0);
-			if (itens == 0) {
+			if (itens <= 0) {
 				vitoria();
 			}
 			itens-=1;
-            if (vida == 0) {
+			vida-=2;
+            if (vida <= 0) {
                 fim();
             }
-            vida-=2;
         }
     }
 }

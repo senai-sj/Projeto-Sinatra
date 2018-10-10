@@ -223,8 +223,8 @@ function colisao() {
             pontos+=100;
             itens-=1;
             if (itens <= 0) {
-				vitoria();
 				pontos-=100;
+				vitoria();
 			} 
             if (pontos<0) {
                 pontos=0;
@@ -284,7 +284,7 @@ function colisao() {
 			if (itens <= 0) {
 				vitoria();
 			} 
-            if (vida == 0) {
+            if (vida <= 0) {
                 fim();
             }
             vida-=1;
@@ -303,7 +303,7 @@ function colisao() {
 			if (itens <= 0) {
 				vitoria();
 			} 
-            if (vida == 0) {
+            if (vida <= 0) {
                 fim();
             }
             vida-=1;

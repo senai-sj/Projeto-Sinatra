@@ -39,11 +39,6 @@ get '/login' do
 	erb :login
 end
 
-get '/jogo' do
-	@views = get_files('./views')
-	erb :jogo
-end
-
 get '/fases' do
 	@views = get_files('./views')
 	erb :fases
@@ -62,6 +57,11 @@ end
 get '/creditos' do
 	@views = get_files('./views')
 	erb :creditos
+end
+
+get '/tutorial' do
+	@views = get_files('./views')
+	erb :tutorial
 end
 
 get '/licenca' do
